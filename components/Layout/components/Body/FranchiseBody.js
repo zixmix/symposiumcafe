@@ -11,7 +11,7 @@ import Sym2 from "/images/franchise/sym2.jpg"
 import Desno from "/images/franchise/desno1.jpg"
 import Desno1 from "/images/franchise/desno2.jpg"
 import Desno2 from "/images/franchise/desno3.jpg"
-import Desno3 from "/images/franchise/desno4.jpg";
+import Desno3 from "/images/franchise/desno4.jpg";n
 
 export default function FranchiseBody()
 {

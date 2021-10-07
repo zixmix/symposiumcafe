@@ -13,22 +13,22 @@ export default function TopBar()
                                 <div className="top-nav-left" id="first-nav">
                                     <ul className="top-left-list">
                                         <li>
-                                            <Link href="./decor">
+                                            <Link href="/decor">
                                                 <a>Decor</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="./feedback">
+                                            <Link href="/feedback">
                                                 <a>Feedback</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="./charity">
+                                            <Link href="/charity">
                                                 <a>Charity</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="./kontakt">
+                                            <Link href="/kontakt">
                                                 <a>Contact Us</a>
                                             </Link>
                                         </li>
@@ -41,7 +41,7 @@ export default function TopBar()
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="./delivery" className="gold-text" style={{color:'#d2c41a;'}}>
+                                        <Link href="/delivery" className="gold-text" style={{color:'#d2c41a;'}}>
                                             <a>Delivery</a>
                                         </Link>
                                 </li>
