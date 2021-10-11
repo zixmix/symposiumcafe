@@ -1,6 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import Slika1 from "/images/about/about.jpg"
+import Slika2 from "/images/about/slika2.jpg"
+import Slika3 from "/images/about/slika3.jpg"
+import Slika4 from "/images/about/slika4.jpg"
+import Slika5 from "/images/about/slika5.jpg"
+import Slika6 from "/images/about/slika6.jpg"
 
 export default function AboutBody()
 {
@@ -29,11 +34,12 @@ export default function AboutBody()
                                 <div className="about-us">
                                     <h2 className="bold">About Symposium Cafe Restaurants - your local restaurant chain </h2>
                                     <p>You want to know all about us? Gladly. We’re proud to share the Symposium story.</p>
+
                                     <h3>Our Start</h3>
                                     <div className="image-in-paragraph right">
 
 <span className="abs-border">
-<img src="images/about-us/outside-symposium-restaurant-cafe.jpg" alt="Outside Symposium Cafe Restaurant"
+<Image src={Slika2} alt="Outside Symposium Cafe Restaurant" width={300} height={117}
      className="img-responsive abs-border-img"/>
 </span>
                                         <span className="text">Symposium Cafe London</span>
@@ -53,12 +59,13 @@ export default function AboutBody()
                                         all
                                         dining periods. We’re definitely #notjustdesserts.</p>
                                     <div className="line-dashed"></div>
+
                                     <h3>
                                         Unique Restaurant Decor
                                     </h3>
                                     <div className="image-in-paragraph left">
 <span className="abs-border">
-<img src="images/about-us/sappho-renaissance-art-on-symposium-cafe-restaurant-lounge-stone-art-decor.jpg"
+<Image src={Slika3} width={100} height={150}
      alt="Sappho renaissance art" className="img-responsive abs-border-img"/>
 </span>
                                         <span className="text">Decor</span>
@@ -84,8 +91,8 @@ export default function AboutBody()
                                     </h3>
                                     <div className="image-in-paragraph right">
 <span className="abs-border">
-<img
-    src="images/about-us/milkshakes-fresh-fruit-strawberries-chocolate-blueberries-specialty-drinks-symposium-cafe-restaurant-lounge-special.jpg"
+<Image
+    src={Slika4} width={216} height={167}
     alt="Milkshakes fresh fruit" className="img-responsive abs-border-img"/>
 </span>
                                         <span className="text">Specialty Beverages</span>
@@ -139,7 +146,7 @@ export default function AboutBody()
                                     <div className="line-dashed"></div>
                                     <div className="image-in-paragraph left">
 <span className="abs-border">
-<img src="images/about-us/Symposium_Golf_Tournament_Charity_Executive_Brea.jpg" alt="Symposium Golf Tournament Charity"
+<Image src={Slika5} alt="Symposium Golf Tournament Charity" width={250} height={163}
      className="img-responsive abs-border-img"/>
 </span>
                                         <span className="text">Symposium Charity Support</span>
@@ -192,7 +199,7 @@ export default function AboutBody()
                                             <h3>Photo Gallery</h3>
                                             <a href="photos/food">
                                                 <div className="abs-border">
-                                                    <img src="/images/locations/bottom.jpg" alt="Gallery image"
+                                                    <Image src={Slika6} alt="Gallery image" width={333} height={365}
                                                          className="abs-border-img height365"/>
                                                 </div>
                                             </a>
