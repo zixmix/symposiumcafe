@@ -8,7 +8,7 @@ import Sprite from "/images/meni/sprite.jpg"
 import Kanada from "/images/meni/canada.jpg"
 import Nestea from "/images/meni/nestea.jpg"
 
-export default function MeniBody()
+export default function MenuBody()
 {
     return(
         <div>

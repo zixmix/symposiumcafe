@@ -20,7 +20,7 @@ import Slika14 from "/public/images/decor/12.jpg";
 
 
 
-export default function ContackBody()
+export default function ContactBody()
 {
     return(
         <div>

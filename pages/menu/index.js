@@ -4,7 +4,7 @@ import Header from "../../components/Layout/components/Header/Header";
 import Footer from "../../components/Layout/components/Footer/Footer";
 import HomeBody from "../../components/Layout/components/Body/HomeBody";
 import FeedBackBody from "../../components/Layout/components/Body/FeedBackBody";
-import MeniBody from "../../components/Layout/components/Body/MeniBody";
+import MenuBody from "../../components/Layout/components/Body/MenuBody";
 
 export default function Menu({childern})
 {
@@ -13,7 +13,7 @@ export default function Menu({childern})
             <>
                 <TopBar/>
                 <Header/>
-<MeniBody/>
+<MenuBody/>
                 <Footer/>
                 {childern}
             </>

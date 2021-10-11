@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function GalerijaBody()
+export default function GalleryBody()
 {
     return(
         <div>

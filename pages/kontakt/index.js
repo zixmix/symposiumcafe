@@ -3,7 +3,7 @@ import TopBar from "../../components/Layout/components/TopBar/TopBar";
 import Header from "../../components/Layout/components/Header/Header";
 import Footer from "../../components/Layout/components/Footer/Footer";
 import HomeBody from "../../components/Layout/components/Body/HomeBody";
-import ContackBody from "../../components/Layout/components/Body/ContackBody";
+import ContactBody from "../../components/Layout/components/Body/ContactBody";
 
 export default function ContactUs({childern})
 {
@@ -12,7 +12,7 @@ export default function ContactUs({childern})
             <>
                 <TopBar/>
                 <Header/>
-                <ContackBody/>
+                <ContactBody/>
                 <Footer/>
                 {childern}
             </>

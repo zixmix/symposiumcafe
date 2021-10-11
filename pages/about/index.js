@@ -4,6 +4,7 @@ import Header from "../../components/Layout/components/Header/Header";
 import Footer from "../../components/Layout/components/Footer/Footer";
 import HomeBody from "../../components/Layout/components/Body/HomeBody";
 import FeedBackBody from "../../components/Layout/components/Body/FeedBackBody";
+import AboutBody from "../../components/Layout/components/Body/AboutBody";
 
 export default function About({childern})
 {
@@ -12,7 +13,7 @@ export default function About({childern})
             <>
                 <TopBar/>
                 <Header/>
-                <h1>abiout</h1>
+                <AboutBody/>
                 <Footer/>
                 {childern}
             </>

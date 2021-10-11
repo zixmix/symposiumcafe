@@ -3,7 +3,7 @@ import Image from "next/image";
 import Slika1 from "/images/delivery/delivery.jpg"
 import Door from "/images/delivery/door.png"
 import Feastify from "/images/delivery/feastify.png"
-import Feastifybela from "/images/delivery/feastify_bela.png"
+import Feastifybela from "/images/delivery/feastify_white.png"
 import Uber from "/images/delivery/uber.png"
 import Skip from "/images/delivery/skip.png"
 import North from"/images/delivery/north.png"
