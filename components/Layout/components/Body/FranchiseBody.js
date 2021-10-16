@@ -11,7 +11,7 @@ import Sym2 from "/images/franchise/sym2.jpg"
 import Desno from "/images/franchise/desno1.jpg"
 import Desno1 from "/images/franchise/desno2.jpg"
 import Desno2 from "/images/franchise/desno3.jpg"
-import Desno3 from "/images/franchise/desno4.jpg";n
+import Desno3 from "/images/franchise/desno4.jpg"
 
 export default function FranchiseBody()
 {
@@ -94,40 +94,43 @@ export default function FranchiseBody()
                                     outdoor enjoyment.
                                 </p>
                                 <div className="autoplay">
-                                    <div className="cfa-images">
+                                    <div className="cfa-images" style={{width:"12.5%", float:"left"}}>
                                         <Image src={Award} width={212} height={195}
                                              alt="Franchise Awards 2020 Special" className="img-responsive"/>
                                     </div>
-                                    <div className="cfa-images">
+                                    <div className="cfa-images"  style={{width:"12.5%", float:"left"}}>
                                         <Image src={Award} width={212} height={195}
                                              alt="Franchise choice 2011-2019" className="img-responsive"/>
                                     </div>
-                                    <div className="cfa-images">
+                                    <div className="cfa-images"  style={{width:"12.5%", float:"left"}}>
                                         <Image src={Award} width={212} height={195} alt="CFA Award Excellence"
                                              className="img-responsive"/>
                                     </div>
-                                    <div className="cfa-images">
+                                    <div className="cfa-images"  style={{width:"12.5%", float:"left"}}>
                                         <Image src={Award1} width={212} height={195} alt="CFA Grand Prize 2017"
                                              className="img-responsive"/>
                                     </div>
-                                    <div className="cfa-images">
+                                    <div className="cfa-images"  style={{width:"12.5%", float:"left"}}>
                                         <Image src={Award2} width={212} height={195} alt="CFA Award Excellence"
                                              className="img-responsive"/>
                                     </div>
-                                    <div className="cfa-images">
+                                    <div className="cfa-images" style={{width:"12.5%", float:"left"}}>
                                         <Image src={Award3} width={212} height={195} alt="CFA Award Excellence"
                                              className="img-responsive"/>
                                     </div>
-                                    <div className="cfa-images">
+                                    <div className="cfa-images" style={{width:"12.5%", float:"left"}}>
                                         <Image src={Award4}  width={212} height={195} alt="CFA Award Excellence"
                                              className="img-responsive"/>
                                     </div>
-                                    <div className="cfa-images">
+                                    <div className="cfa-images" style={{width:"12.5%", float:"left"}}>
                                         <Image src={Award} width={212} height={195} alt="CFA Grand Prize 2017"
                                              className="img-responsive"/>
                                     </div>
 
                                 </div>
+                                <br/>
+                                <div style={{float:"left"}}>
+                                    <br/>
                                 <p>Since 1996, Symposium Restaurants have been “Redefining the Cafe Experience” ™ by
                                     responding and adapting to consumer dining trends: setting high standards in guest
                                     focussed service and providing quality and value for the optimum dining experience.
@@ -137,6 +140,7 @@ export default function FranchiseBody()
                                 Restaurant & Lounge a successful and rewarding restaurant franchise opportunity with
                                 continued growth through the Ontario marketplace in both franchise and corporate stores.
                             </p>
+                                </div>
 
                                 <div className="row">
                                     <div className="franchise-list">

@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import Slika1 from "/images/about/about.jpg"
-import Slika2 from "/images/about/slika2.jpg"
-import Slika3 from "/images/about/slika3.jpg"
-import Slika4 from "/images/about/slika4.jpg"
-import Slika5 from "/images/about/slika5.jpg"
-import Slika6 from "/images/about/slika6.jpg"
+import Pic1 from "/images/about/about.jpg"
+import Pic2 from "/images/about/slika2.jpg"
+import Pic3 from "/images/about/slika3.jpg"
+import Pic4 from "/images/about/slika4.jpg"
+import Pic5 from "/images/about/slika5.jpg"
+import Pic6 from "/images/about/slika6.jpg"
 
 export default function AboutBody()
 {
@@ -16,7 +16,7 @@ export default function AboutBody()
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="header-image">
-                                <Image src={Slika1} width={1080} height={380}
+                                <Image src={Pic1} width={1080} height={380}
                                      alt="https://symposiumcafe.com/" className="img-responsive"/>
                                     <div className="header-image-with-text">
                                         <h1>About Us</h1>
@@ -39,9 +39,9 @@ export default function AboutBody()
                                     <div className="image-in-paragraph right">
 
 <span className="abs-border">
-<Image src={Slika2} alt="Outside Symposium Cafe Restaurant" width={300} height={117}
+<Image src={Pic2} alt="Outside Symposium Cafe Restaurant" width={300} height={117}
      className="img-responsive abs-border-img"/>
-</span>
+</span><br/>
                                         <span className="text">Symposium Cafe London</span>
                                     </div>
                                     <p>
@@ -63,11 +63,11 @@ export default function AboutBody()
                                     <h3>
                                         Unique Restaurant Decor
                                     </h3>
-                                    <div className="image-in-paragraph left">
-<span className="abs-border">
-<Image src={Slika3} width={100} height={150}
-     alt="Sappho renaissance art" className="img-responsive abs-border-img"/>
-</span>
+                                    <div className="image-in-paragraph left" style={{float:"left"}}>
+                                        <span className="abs-border" >
+                                            <Image src={Pic3}  width={100} height={150} alt="Sappho renaissance art" className="img-responsive abs-border-img"/>
+                                        </span>
+                                        <br/>
                                         <span className="text">Decor</span>
                                     </div>
                                     <p>
@@ -85,6 +85,7 @@ export default function AboutBody()
                                         fitting
                                         for quick take-out after work, dinner before a movie, or appetizers at the bar.
                                     </p>
+
                                     <div className="line-dashed"></div>
                                     <h3>
                                         Wine, Beer, Cocktails & More
@@ -92,9 +93,9 @@ export default function AboutBody()
                                     <div className="image-in-paragraph right">
 <span className="abs-border">
 <Image
-    src={Slika4} width={216} height={167}
+    src={Pic4} width={216} height={167}
     alt="Milkshakes fresh fruit" className="img-responsive abs-border-img"/>
-</span>
+</span><br/>
                                         <span className="text">Specialty Beverages</span>
                                     </div>
                                     <p>Like traditional european cafes, all Symposium restaurants are fully licensed with a full
@@ -136,7 +137,7 @@ export default function AboutBody()
                                         Dinner for Two, and 33% off Appetizers. Our 7 Day restaurant Specials were the first of
                                         their kind
                                         and
-                                        continue to be customer favourites. Check out all our offerings on the <a href="menu">Our
+                                        continue to be customer favourites. Check out all our offerings on the <a href="/menu">Our
                                             Menu</a> page of our
                                         website.</p>
                                     <div className="promotions-seven">
@@ -144,11 +145,11 @@ export default function AboutBody()
                                         <div className="content-of-day" id="full-width"></div>
                                     </div>
                                     <div className="line-dashed"></div>
-                                    <div className="image-in-paragraph left">
+                                    <div className="image-in-paragraph left"  style={{float:"left"}}>
 <span className="abs-border">
-<Image src={Slika5} alt="Symposium Golf Tournament Charity" width={250} height={163}
+<Image src={Pic5} alt="Symposium Golf Tournament Charity" width={250} height={163}
      className="img-responsive abs-border-img"/>
-</span>
+</span><br/>
                                         <span className="text">Symposium Charity Support</span>
                                     </div>
                                     <h3>
@@ -166,6 +167,10 @@ export default function AboutBody()
                                         Tournament - World Vision and Canadian athletes.</p>
                                     <div className="clear"></div>
                                     <div className="line-dashed"></div>
+                                    <br/>
+
+                                    <br/>
+                                    <br/>
                                     <h3 className="bold">
                                         Come on Over
                                     </h3>
@@ -187,19 +192,19 @@ export default function AboutBody()
                                     <div className="location-maps">
                                         <div className="col-lg-4">
                                             <h3> Google 360 Tour</h3>
-                                            <iframe frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"
+                                            <iframe frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" width={333} height={365}
                                                     src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sca!4v1442861684594!6m8!1m7!1sXsvO6HZwVCIAAAQIL2Mndg!2m2!1d43.88314486173313!2d-79.01727133654629!3f166!4f0!5f0.7820865974627469"></iframe>
                                         </div>
                                         <div className="col-lg-4">
                                             <h3>Symposium Video</h3>
-                                            <iframe src="https://www.youtube.com/embed/o99jiw4XSSI" frameBorder="0"
+                                            <iframe src="https://www.youtube.com/embed/o99jiw4XSSI" frameBorder="0" width={333} height={365}
                                                     allowFullScreen></iframe>
                                         </div>
                                         <div className="col-lg-4">
                                             <h3>Photo Gallery</h3>
-                                            <a href="photos/food">
+                                            <a href="/galery">
                                                 <div className="abs-border">
-                                                    <Image src={Slika6} alt="Gallery image" width={333} height={365}
+                                                    <Image src={Pic6} alt="Gallery image" width={333} height={365}
                                                          className="abs-border-img height365"/>
                                                 </div>
                                             </a>
