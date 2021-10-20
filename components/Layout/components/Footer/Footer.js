@@ -89,13 +89,13 @@ export default function Footer()
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="https://symposiumcafe.com/franchise-opportunities">
+                                        <Link href="/franchise">
                                             <a>Franchise information</a>
                                         </Link>
 
                                     </li>
                                     <li>
-                                        <Link href="https://symposiumcafe.com/privacy">
+                                        <Link href="/privacy">
                                             <a>Privacy Policy</a>
                                         </Link>
 

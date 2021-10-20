@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import Pic from "/images/proud/proud-to-support.jpg"
 
 export default function ProudBody()
 {
@@ -10,7 +12,7 @@ export default function ProudBody()
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="header-image">
-                                <img src="https://symposiumcafe.com/images/pages/charity/14994657proud-to-support.jpg" alt="https://symposiumcafe.com/" className="img-responsive"/>
+                                <Image src={Pic} width={1060} hidden={380} alt="https://symposiumcafe.com/" className="img-responsive"/>
                                 <div className="header-image-with-text">
                                     <h1>Proud to Support</h1>
                                 </div>
@@ -55,9 +57,9 @@ export default function ProudBody()
                                             sponsors, supporters, fans, and family. Were thankful for each other and having the ability to
                                             support and push one another every single day</em>”. – Julie Gordon</p>
                                         <p>Join us and show your support for Julie and Brandi on social media:</p>
-                                        <p><a href="/cdn-cgi/l/email-protection" className="__cf_email__" data-cfemail="d49ea1b8bdb194bea1bea1b3bba6b0">[email&#160;protected]</a>
-                                            <a href="/cdn-cgi/l/email-protection" className="__cf_email__" data-cfemail="682a1a09060c010d280a1e1d0104040d1d05010d1a">[email&#160;protected]</a>
-                                            Facebook: <a href="https://www.facebook.com/gordonwilkersonbeach">http://www.facebook.com/gordonwilkersonbeach</a>
+                                        <p><Link href="/cdn-cgi/l/email-protection" className="__cf_email__" data-cfemail="d49ea1b8bdb194bea1bea1b3bba6b0">[email&#160;protected]</Link>
+                                            <Link href="/cdn-cgi/l/email-protection" className="__cf_email__" data-cfemail="682a1a09060c010d280a1e1d0104040d1d05010d1a">[email&#160;protected]</Link>
+                                            Facebook: <Link href="https://www.facebook.com/gordonwilkersonbeach">http://www.facebook.com/gordonwilkersonbeach</Link>
                                         </p>
                                     </div>
                                     <div className="col-lg-3" style={{float:"right"}}>

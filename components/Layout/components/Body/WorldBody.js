@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import Pic from "/images/world/world-vision.jpg"
 
 export default function WorldBody()
 {
@@ -10,7 +12,7 @@ export default function WorldBody()
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="header-image">
-                                <img src="https://symposiumcafe.com/images/pages/charity/14994657world-vision.jpg" alt="https://symposiumcafe.com/" className="img-responsive"/>
+                                <Image src={Pic} width={1060} height={380} alt="https://symposiumcafe.com/" className="img-responsive"/>
                                     <div className="header-image-with-text">
                                         <h1>World Vision International</h1>
                                     </div>
@@ -47,7 +49,7 @@ export default function WorldBody()
                                             patronage and hope they too are proud to be making a difference by living the World Vision
                                             motto
                                             of “building a better world for children”.</p>
-                                        <p> Contact <a href="http://www.worldvision.ca/getinvolved">http://www.worldvision.ca/getinvolved</a>
+                                        <p> Contact <Link href="http://www.worldvision.ca/getinvolved">http://www.worldvision.ca/getinvolved</Link>
                                             for information and volunteering opportunities.</p>
                                     </div>
                                     <div className="col-lg-3" style={{float:"right"}}>

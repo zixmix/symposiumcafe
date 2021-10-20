@@ -1,4 +1,4 @@
-export const locations = [
+const locations = [
   {
     name: 'Ajax',
     slug: 'ajax',
@@ -7,6 +7,9 @@ export const locations = [
     email: 'symposium.ajax@symposiumcafe.com',
     facebook: 'https://www.facebook.com/SymposiumCafeAjax/',
     yelp: 'https://www.yelp.ca/biz/symposium-caf%C3%A9-restaurant-and-lounge-ajax-ajax'
+  }
+  {
+
   }
 
   ];

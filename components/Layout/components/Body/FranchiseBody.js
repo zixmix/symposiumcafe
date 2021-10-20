@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Fransiza from "/images/franchise/franchise.jpg"
+import Link from "next/link";
+import Franchise from "/images/franchise/franchise.jpg"
 import Award from "/images/franchise/award.jpg"
 import Award1 from "/images/franchise/award1.jpg"
 import Award2 from "/images/franchise/award2.png"
@@ -22,7 +23,7 @@ export default function FranchiseBody()
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="header-image">
-                                <Image src={Fransiza} width={1080} height={380}
+                                <Image src={Franchise} width={1080} height={380}
                                      alt="https://symposiumcafe.com/" className="img-responsive"/>
                                     <div className="header-image-with-text">
                                     </div>
@@ -39,39 +40,39 @@ export default function FranchiseBody()
                                 <div className="sub-navigation">
                                     <ul>
                                         <li>
-                                            <a style={{padding:"8px 4px"}}
-                                               href="https://symposiumcafe.com/franchise-opportunities"
-                                               className="active"> Franchise</a>
+                                            <Link style={{padding:"8px 4px"}}
+                                                  href="/franchise"
+                                                  className="active"> Franchise</Link>
                                         </li>
                                         <li>
-                                            <a style={{padding:"8px 4px"}}
-                                               href="https://symposiumcafe.com/franchise-opportunities/why-a-symposium-cafe-franchise">Why
+                                            <Link style={{padding:"8px 4px"}}
+                                                  href="/franchise/whySymposium">Why
                                                 a Symposium Franchise?
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a style={{padding:"8px 4px"}}
-                                               href="https://symposiumcafe.com/franchise-opportunities/franchise-facts">Franchise
-                                                Facts</a>
+                                            <Link style={{padding:"8px 4px"}}
+                                                  href="/franchise/franchiseFacts">Franchise
+                                                Facts</Link>
                                         </li>
                                         <li>
-                                            <a style={{padding:"8px 4px"}}
-                                               href="https://symposiumcafe.com/franchise-opportunities/franchising-investment-details">Franchising
-                                                Investment Details</a>
+                                            <Link style={{padding:"8px 4px"}}
+                                                  href="/franchise/franchisingInvestment">Franchising
+                                                Investment Details</Link>
                                         </li>
                                         <li>
-                                            <a style={{padding:"8px 4px"}}
-                                               href="https://symposiumcafe.com/franchise-opportunities/current-locations-for-sale">Current
-                                                Opportunities</a>
+                                            <Link  style={{padding:"8px 4px"}}
+                                                   href="/franchise/currentLocation">Current
+                                                Opportunities</Link>
                                         </li>
                                         <li>
-                                            <a style={{padding:"8px 4px"}}
-                                               href="https://symposiumcafe.com/franchise-opportunities/faq">FAQ</a>
+                                            <Link style={{padding:"8px 4px"}}
+                                                  href="/franchise/faq">FAQ</Link>
                                         </li>
                                         <li>
-                                            <a style={{padding:"8px 4px"}}
-                                               href="https://symposiumcafe.com/franchise-opportunities/contact-us">Contact
-                                                us</a>
+                                            <Link style={{padding:"8px 4px"}}
+                                                  href="/franchise/contactUs">Contact
+                                                us</Link>
                                         </li>
                                     </ul>
                                 </div>

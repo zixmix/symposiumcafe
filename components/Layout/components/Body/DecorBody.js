@@ -29,7 +29,7 @@ export default function DecorBody()
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="header-image">
-                                <Image src={Slika} width={1010} height={380}
+                                <Image src={Slika} width={1060} height={380}
                                      alt="https://symposiumcafe.com/" className="img-responsive"/>
                                     <div className="header-image-with-text">
                                         <h1>Decor</h1>

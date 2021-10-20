@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import Pic from "/images/breakfast/breakfast-club.jpg"
 
 export default function BreakfastBody()
 {
@@ -10,7 +12,7 @@ export default function BreakfastBody()
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="header-image">
-                                <img src="https://symposiumcafe.com/images/pages/charity/14978416breakfast-club.jpg" alt="https://symposiumcafe.com/" className="img-responsive"/>
+                                <Image src={Pic} width={1060} height={380} alt="https://symposiumcafe.com/" className="img-responsive"/>
                                     <div className="header-image-with-text">
                                         <h1>Breakfast Club of Canada</h1>
                                     </div>

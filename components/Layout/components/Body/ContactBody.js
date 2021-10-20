@@ -1,24 +1,7 @@
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
-import Slika from "/public/images/decor/prva.jpg";
-import Slika2 from "/public/images/decor/dva.jpg";
-import Slika3 from "/public/images/decor/1.jpg";
-import Slika4 from "/public/images/decor/2.jpg";
-import Slika5 from "/public/images/decor/3.jpg";
-import Slika6 from "/public/images/decor/4.jpg";
-import Slika7 from "/public/images/decor/5.jpg";
-import Slika8 from "/public/images/decor/6.jpg";
-import Slika9 from "/public/images/decor/7.jpg";
-import Slika10 from "/public/images/decor/8.jpg";
-import Slika11 from "/public/images/decor/9.jpg";
-import Slika12 from "/public/images/decor/10.jpg";
-import Slika13 from "/public/images/decor/11.jpg";
-import Slika14 from "/public/images/decor/12.jpg";
-
-
-
-
-
+import Pic from "/images/contact/contact-us.jpg"
 
 export default function ContactBody()
 {
@@ -29,7 +12,7 @@ export default function ContactBody()
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="header-image">
-                            <img src="https://symposiumcafe.com/images/pages/1984312contact-us.jpg"
+                            <Image src={Pic} width={1060} height={380}
                                  alt="https://symposiumcafe.com/" className="img-responsive"/>
                                 <div className="header-image-with-text">
                                     <h1>Contact Us</h1>
@@ -45,14 +28,14 @@ export default function ContactBody()
                 <div className="row">
                     <div className="col-lg-12">
 
-                            <h4>For Reservations - see <a href="/locations">LOCATIONS</a> page contact info </h4>
+                            <h4>For Reservations - see <Link href="/locations">LOCATIONS</Link> page contact info </h4>
                             <p> Questions or Comments? We’d like to hear from you…</p>
                             <p>Let us know how you enjoyed your Symposium experience by completing our
-                                <a href="feedback" className="bold purple-text">Feedback </a>form.
+                                <Link href="feedback" className="bold purple-text">Feedback </Link>form.
                             </p>
                             <p>If you’d like information about specific Symposium restaurant hours, telephone numbers,
-                                location maps etc., see our <a href="locations"
-                                                               className="bold purple-text">Locations</a>
+                                location maps etc., see our <Link href="locations"
+                                                               className="bold purple-text">Locations</Link>
                                 page.
                             </p>
                             <p>For additional information, take a look at the options below, and we’ll do our best to

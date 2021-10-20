@@ -1,5 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import Pic from "/images/charity/charity.jpg"
+import Pic1 from "/images/charity/breakfast-club.jpg"
+import Pic2 from "/images/charity/golf-for-a-cure.jpg"
+import Pic4 from "/images/charity/proud-to-support.jpg"
+import Pic3 from "/images/charity/world-vision.jpg"
+
 
 export default function CharityBody()
 {
@@ -10,7 +17,7 @@ export default function CharityBody()
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="header-image">
-                                <img src="https://symposiumcafe.com/images/pages/1453472828charity.jpg"
+                                <Image src={Pic} width={1060} height={380}
                                      alt="https://symposiumcafe.com/" className="img-responsive"/>
                                     <div className="header-image-with-text">
                                         <h1>Charity</h1>
@@ -30,20 +37,20 @@ export default function CharityBody()
                                         <div className="row">
                                             <div className="charity-post">
                                                 <div className="col-lg-5">
-                                                    <a href="https://symposiumcafe.com/charity/breakfast-club-of-canada">
+                                                    <Link href="/charity/breakfast">
                                                         <div className="abs-border" style={{width:"30%", float:"left"}}>
-                                                            <img
-                                                                src="https://symposiumcafe.com/images/pages/charity/14978416breakfast-club.jpg"
+                                                            <Image width={424} height={160}
+                                                                src={Pic1}
                                                                 alt="Breakfast Club of Canada"
                                                                 className="abs-border-img"
                                                                 style={{width:"100px"}}
                                                             />
                                                         </div>
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                                 <div className="col-lg-7">
-                                                    <a href="https://symposiumcafe.com/charity/breakfast-club-of-canada">
-                                                        <h2>Breakfast Club of Canada</h2></a>
+                                                    <h2><Link href="/charity/breakfast">
+                                                        Breakfast Club of Canada</Link></h2>
                                                     <p>
                                                         Children should go to school hungry for knowledge, not hungry
                                                         for food. When you recognize that 60% of a child’s academic
@@ -60,17 +67,17 @@ export default function CharityBody()
                                         <div className="row">
                                             <div className="charity-post">
                                                 <div className="col-lg-5">
-                                                    <a href="https://symposiumcafe.com/charity/breast-cancer-of-canada">
+                                                    <Link href="/charity/golf">
                                                         <div className="abs-border"  style={{width:"30%", float:"left"}}>
-                                                            <img
-                                                                src="https://symposiumcafe.com/images/pages/charity/14984658golf-for-a-cure.jpg"
+                                                            <Image width={424}  height={160}
+                                                                src={Pic2}
                                                                 alt="Golf for a Cure" className="abs-border-img"/>
                                                         </div>
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                                 <div className="col-lg-7">
-                                                    <a href="https://symposiumcafe.com/charity/breast-cancer-of-canada">
-                                                        <h2>Golf for a Cure</h2></a>
+                                                    <h2><Link href="/charity/golf">
+                                                        Golf for a Cure</Link></h2>
                                                     <p>
                                                         Since 2008, we’ve been hitting the greens with guests, staff,
                                                         suppliers, management and owners for the best golf tournament of
@@ -86,18 +93,18 @@ export default function CharityBody()
                                         <div className="row">
                                             <div className="charity-post">
                                                 <div className="col-lg-5">
-                                                    <a href="https://symposiumcafe.com/charity/world-vision-international">
+                                                    <Link href="/charity/world">
                                                         <div className="abs-border"  style={{width:"30%", float:"left"}}>
-                                                            <img
-                                                                src="https://symposiumcafe.com/images/pages/charity/14994657world-vision.jpg"
+                                                            <Image width={424}  height={160}
+                                                                src={Pic3}
                                                                 alt="World Vision International"
-                                                                className="abs-border-img"/>
+                                                                   className="abs-border-img"/>
                                                         </div>
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                                 <div className="col-lg-7">
-                                                    <a href="https://symposiumcafe.com/charity/world-vision-international">
-                                                        <h2>World Vision International</h2></a>
+                                                    <h2><Link href="/charity/world">
+                                                        World Vision International</Link></h2>
                                                     <p>
                                                         It’s all about giving back. With the opening of every new
                                                         Symposium location, Symposium Cafe Restaurant & Lounge commits
@@ -114,17 +121,17 @@ export default function CharityBody()
                                         <div className="row">
                                             <div className="charity-post">
                                                 <div className="col-lg-5">
-                                                    <a href="https://symposiumcafe.com/charity/olympic-hopefuls">
+                                                    <Link href="/charity/proud">
                                                         <div className="abs-border"  style={{width:"30%", float:"left"}}>
-                                                            <img
-                                                                src="https://symposiumcafe.com/images/pages/charity/14994657proud-to-support.jpg"
+                                                            <Image width={424}  height={160}
+                                                                src={Pic4}
                                                                 alt="Proud to Support" className="abs-border-img"/>
                                                         </div>
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                                 <div className="col-lg-7">
-                                                    <a href="https://symposiumcafe.com/charity/olympic-hopefuls">
-                                                        <h2>Proud to Support</h2></a>
+                                                    <h2><Link href="/charity/proud">
+                                                        Proud to Support</Link></h2>
                                                     <p>
                                                         Symposium’s ambassadors of sport, Julie Gordon and Brandi
                                                         Wilkerson, are making their mark in the world of beach

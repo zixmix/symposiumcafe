@@ -1,12 +1,12 @@
 import React from "react";
-import ContactBody from "../../components/Layout/components/Body/ContactBody";
+import FranContactBody from "../../components/Layout/components/Body/FranContactBody";
 
 export default function ContactUs({})
 {
     return(
         <div>
             <>
-                <ContactBody/>
+                <FranContactBody/>
             </>
         </div>
     )

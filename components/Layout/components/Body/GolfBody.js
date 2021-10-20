@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import Pic from "/images/charity/golf-for-a-cure_2.jpg"
 
 export default function GolfBody()
 {
@@ -10,7 +12,7 @@ export default function GolfBody()
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="header-image">
-                                <img src="https://symposiumcafe.com/images/pages/charity/14984658golf-for-a-cure.jpg"
+                                <Image src={Pic} width={1060} height={380}
                                      alt="https://symposiumcafe.com/" className="img-responsive"/>
                                     <div className="header-image-with-text">
                                         <h1>Golf for a Cure</h1>
@@ -50,7 +52,7 @@ export default function GolfBody()
                                             and Labatt.</p>
                                         <hr />
                                         <p>The Breast Cancer Society of Canada is a registered not-for-profit charitable organization. Donations to
-                                            the Society can be made online at <a href="http://www.bcsc.ca"  >http://www.bcsc.ca</a> or by calling <a href="tel:1-800-567-8767">1-800-567-8767</a></p>
+                                            the Society can be made online at <Link href="http://www.bcsc.ca"  >http://www.bcsc.ca</Link> or by calling <Link href="tel:1-800-567-8767">1-800-567-8767</Link></p>
                                     </div>
                                     <div className="col-lg-3" style={{float:"right"}}>
                                         <div className="widget yellow-bg">

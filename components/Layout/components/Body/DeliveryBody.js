@@ -12,7 +12,7 @@ export default function DeliveryBody()
 {
     return(
         <div>
-            <section style={{padding:"10px"}}>
+            <section>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import Pic1 from "/images/about/about.jpg"
 import Pic2 from "/images/about/slika2.jpg"
 import Pic3 from "/images/about/slika3.jpg"
@@ -137,9 +138,10 @@ export default function AboutBody()
                                         Dinner for Two, and 33% off Appetizers. Our 7 Day restaurant Specials were the first of
                                         their kind
                                         and
-                                        continue to be customer favourites. Check out all our offerings on the <a href="/menu">Our
-                                            Menu</a> page of our
-                                        website.</p>
+                                        continue to be customer favourites. Check out all our offerings on the
+                                        <Link href="/menu">Our Menu</Link>
+                                        page of our website.
+                                    </p>
                                     <div className="promotions-seven">
                                         <h2>Daily Symposium Specials & Features </h2>
                                         <div className="content-of-day" id="full-width"></div>
@@ -202,12 +204,12 @@ export default function AboutBody()
                                         </div>
                                         <div className="col-lg-4">
                                             <h3>Photo Gallery</h3>
-                                            <a href="/galery">
+                                            <Link href="/galery">
                                                 <div className="abs-border">
                                                     <Image src={Pic6} alt="Gallery image" width={333} height={365}
                                                          className="abs-border-img height365"/>
                                                 </div>
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>

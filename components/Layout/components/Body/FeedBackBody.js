@@ -1,22 +1,19 @@
 import React from "react";
-
-
-
-
-
+import Image from "next/image";
+import Pic from "/images/feedback/feedback.jpg"
 
 
 export default function FeedBackBody()
 {
     return(
 <div>
-    <h1></h1>
+
     <section>
         <div className="container">
             <div className="row">
                 <div className="col-lg-12">
                     <div className="header-image">
-                        <img src="https://symposiumcafe.com/images/pages/1453412827feedback.jpg"
+                        <Image src={Pic} width={1060} height={380}
                              alt="https://symposiumcafe.com/" className="img-responsive"/>
                             <div className="header-image-with-text">
                                 <h1>Feedback</h1>

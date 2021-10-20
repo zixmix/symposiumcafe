@@ -1,29 +1,39 @@
 import React from "react";
 import Image from "next/image"
-import Paste from  "/public/images/home/pasta.jpg";
-import Girls from "/public/images/home/girls.jpg";
-import Kontakt from "/public/images/home/kontakt.jpg";
+import Link from "next/link";
+import Paste from  "/images/home/pasta.jpg";
+import Girls from "/images/home/girls.jpg";
+import Contact from "/images/home/kontakt.jpg";
+import Baner from "/images/home/home_banner_takeout.jpg"
+import Face from "/images/social-icons/fb.png"
+import Insta from "/images/social-icons/instagram.png"
+import Twit from "/images/social-icons/twitter.png"
+import Goggle from "/images/social-icons/gplus.png"
+import Trip from "/images/social-icons/trip.png"
+import Biz from "/images/social-icons/yelp.png"
+import Zomato from "/images/social-icons/zomato.png"
+
 
 export default function HomeBody()
 {
     return(
         <div>
             <section>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
+                <div className="container" >
+                    <div className="row" >
+                        <div className="col-lg-12" >
                             <div className="slider-bg">
                                 <h1 className="home-headings">WINE – BEER - CIDER – SELTZERS NOW AVAILABLE TO ADD TO
                                     YOUR PICK-UP
                                     ORDER</h1>
-                                <div className="fullwidthbanner-container">
+                                <div className="fullwidthbanner-container" >
                                     <div className="fullwidthbanner home-slider">
                                         <ul>
 
 
                                             <li data-transition="slotfade-horizontal" data-slotamount="1"
                                                 data-masterspeed="700">
-                                                <img src="https://symposiumcafe.com/images/news/collage-banner.jpg"
+                                                <Image src={Baner} width={1060} height={380}
                                                      alt="" data-bgfit="cover" data-bgposition="center center"
                                                      data-bgrepeat="no-repeat"/>
                                                     <div className="tp-caption fadeout slider-purple " data-y="450"
@@ -38,7 +48,9 @@ export default function HomeBody()
                                             </li>
 
                                         </ul>
-                                        <div className="tp-bannertimer"></div>
+                                        <div className="tp-bannertimer">
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +90,8 @@ export default function HomeBody()
                                     <div className="row">
                                         <div className="col-lg-4 col-md-6 col-sm-12">
                                             <div className="abs-border">
-                                                    <Image src={Paste} alt="Our menu" className="abs-border-img"/>
+                                                    <Image src={Paste} width={333.33} height={237.83}
+                                                           alt="Our menu" className="abs-border-img"/>
                                             </div>
 
                                             <h3 className="text-center title-h3">Our menu</h3>
@@ -97,41 +110,41 @@ export default function HomeBody()
                                         </div>
                                         <div className="col-lg-4 col-md-6 col-sm-12">
                                             <div className="abs-border">
-                                                <Image src={Girls} alt="Get social" className="abs-border-img"/>
+                                                <Image src={Girls} width={333.33} height={237.83}
+                                                       alt="Get social" className="abs-border-img"/>
 
                                                 <div className="get-social">
                                                         <ul className="get-social-list">
                                                             <li>
-                                                                <a href="https://www.facebook.com/pages/The-Symposium-Cafe-Restaurants/175747402455407"
-                                                                   ><img src="images/social-icons/fb.png"
-                                                                                        alt="Facebook"/></a></li>
+                                                                <Link href="https://www.facebook.com/pages/The-Symposium-Cafe-Restaurants/175747402455407"
+                                                                   ><Image src={Face} width={32} height={32} alt="Facebook"/></Link></li>
                                                             <li>
-                                                                <a href="https://www.instagram.com/symposiumcafe_restaurantlounge/"
-                                                                   ><img
-                                                                    src="images/social-icons/instagram.png"
-                                                                    alt="Instagram"/></a></li>
-                                                            <li><a href="https://twitter.com/CafeSymposium"
-                                                                   ><img
-                                                                src="images//social-icons/twitter.png"
-                                                                alt="Twitter"/></a></li>
-                                                            <li><a href="https://plus.google.com/+symposiumcafe/about"
-                                                                   ><img
-                                                                src="images//social-icons/gplus.png" alt="Twitter"/></a>
+                                                                <Link href="https://www.instagram.com/symposiumcafe_restaurantlounge/"
+                                                                   ><Image
+                                                                    src={Insta} width={32} height={32}
+                                                                    alt="Instagram"/></Link></li>
+                                                            <li><Link href="https://twitter.com/CafeSymposium"
+                                                                   ><Image width={32} height={32}
+                                                                src={Twit}
+                                                                alt="Twitter"/></Link></li>
+                                                            <li><Link href="https://plus.google.com/+symposiumcafe/about"
+                                                                   ><Image width={32} height={32}
+                                                                src={Goggle} alt="Twitter"/></Link>
                                                             </li>
                                                             <li>
-                                                                <a href="https://www.yelp.ca/biz/symposium-caf%C3%A9-restaurant-and-lounge-ajax-ajax"
-                                                                   ><img
-                                                                    src="images/social-icons/yelp.png" alt="Yelp"/></a>
+                                                                <Link href="https://www.yelp.ca/biz/symposium-caf%C3%A9-restaurant-and-lounge-ajax-ajax"
+                                                                   ><Image width={32} height={32}
+                                                                    src={Biz} alt="Yelp"/></Link>
                                                             </li>
                                                             <li>
-                                                                <a href="https://www.tripadvisor.ca/Restaurant_Review-g499247-d4607684-Reviews-Symposium_Cafe_Restaurant_Lounge_Ajax-Ajax_Ontario.html"
-                                                                   ><img
-                                                                    src="images/social-icons/trip.png"
-                                                                    alt="Trip Advisor"/></a></li>
+                                                                <Link href="https://www.tripadvisor.ca/Restaurant_Review-g499247-d4607684-Reviews-Symposium_Cafe_Restaurant_Lounge_Ajax-Ajax_Ontario.html"
+                                                                   ><Image width={32} height={32}
+                                                                    src={Trip}
+                                                                    alt="Trip Advisor"/></Link></li>
                                                             <li>
-                                                                <a href="https://www.zomato.com/toronto/symposium-cafe-restaurant-lounge-ajax-gta"
-                                                                   ><img
-                                                                    src="images/social-icons/zomato.png" alt="Zomato"/></a>
+                                                                <Link href="https://www.zomato.com/toronto/symposium-cafe-restaurant-lounge-ajax-gta"
+                                                                   ><Image width={32} height={32}
+                                                                    src={Zomato} alt="Zomato"/></Link>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -147,16 +160,17 @@ export default function HomeBody()
                                                 all the special, memorable moments in between; share your Symposium
                                                 style and find
                                                 out
-                                                what’s happening @cafesymposium <a
-                                                href="https://www.facebook.com/hashtag/symposiumstyle">#symposiumcafe</a>
+                                                what’s happening @cafesymposium <Link
+                                                href="https://www.facebook.com/hashtag/symposiumstyle">#symposiumcafe</Link>
                                             </p>
                                         </div>
                                         <div className="col-lg-4 col-md-6 col-sm-12">
-                                            <a href="about">
+                                            <Link href="about">
                                                 <div className="abs-border">
-                                                    <Image src={Kontakt} alt="Our menu" className="abs-border-img"/>
+                                                    <Image src={Contact} width={333.33} height={237.83}
+                                                           alt="Our menu" className="abs-border-img"/>
                                                 </div>
-                                            </a>
+                                            </Link>
                                             <h3 className="text-center title-h3">About us</h3>
                                             <p className="justify">
                                                 It started with a vision. There had to be a restaurant where you could
@@ -167,8 +181,8 @@ export default function HomeBody()
                                                 component that would make it a regular affordable go-to local
                                                 restaurant. So that’s how
                                                 Symposium
-                                                Cafe Restaurant & Lounge came to be... <a href="about">[Read
-                                                more]</a>
+                                                Cafe Restaurant & Lounge came to be... <Link href="about">[Read
+                                                more]</Link>
                                             </p>
                                         </div>
                                     </div>
