@@ -113,7 +113,7 @@ export default function Footer()
                                     </li>
                                 </ul>
                                 <h4 style={{color:"white"}}>See
-                                    <Link href="/locations"  style={{color:"white"}} >
+                                    <Link href="/location"  style={{color:"white"}} >
                                     <a>
                                         LOCATIONS
                                     </a>
