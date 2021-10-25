@@ -1,16 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Lokacija from "/images/location/location.jpg"
-import location from "/data/location.json"
+import locations from "/data/location.js"
 
 const defaultEndpoint = "location";
 
 
-export default function LocationBody({data})
-
-{
-    const { results = [] }  = data;
-    return(
+export default function LocationBody() {
+    return (
         <div>
             <section>
                 <div className="container">
@@ -18,10 +15,10 @@ export default function LocationBody({data})
                         <div className="col-lg-12">
                             <div className="header-image">
                                 <Image src={Lokacija} width={1060} height={380}
-                                     alt="https://symposiumcafe.com/" className="img-responsive"/>
-                                    <div className="header-image-with-text">
-                                        <h1>Locations</h1>
-                                    </div>
+                                       alt="https://symposiumcafe.com/" className="img-responsive"/>
+                                <div className="header-image-with-text">
+                                    <h1>Locations</h1>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -71,10 +68,10 @@ export default function LocationBody({data})
                                     <div className="row row-eq-height">
                                         <div className="col-lg-8">
                                             <ul className="three-columns-list">
-                                                {results.map(result =>{
-                                                    const {id, name }= result;
-                                                    return(
-                                                        <li key={id} >
+                                                {locations.map(result => {
+                                                    const {id, name} = result;
+                                                    return (
+                                                        <li key={id}>
                                                             <a href="https://symposiumcafe.com/locations/ajax-restaurants">
                                                                 <h2>{name}</h2>
                                                             </a>
