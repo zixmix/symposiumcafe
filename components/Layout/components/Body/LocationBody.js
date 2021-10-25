@@ -1,9 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import Lokacija from "/images/location/location.jpg"
+import location from "/data/location.json"
 
-export default function LocationBody()
+const defaultEndpoint = "location";
+
+
+export default function LocationBody({data})
+
 {
+    const { results = [] }  = data;
     return(
         <div>
             <section>
@@ -65,81 +71,17 @@ export default function LocationBody()
                                     <div className="row row-eq-height">
                                         <div className="col-lg-8">
                                             <ul className="three-columns-list">
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/ajax-restaurants">Ajax</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/alliston-restaurants">Alliston</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/ancaster-restaurants">Ancaster</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/aurora-restaurants">Aurora</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/barrie-restaurants">Barrie</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/bolton-restaurants">Bolton</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/brantford-restaurants">Brantford</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/cambridge-restaurants">Cambridge</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/cobourg-restaurants">Cobourg</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/georgetown-restaurants">Georgetown</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/guelph-restaurants">Guelph</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/keswick-restaurants">Keswick</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/lindsay-restaurants">Lindsay</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/markham-restaurants">Markham</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/milton-restaurants">Milton</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/mississauga-south-restaurants">Mississauga
-                                                        South</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/oakville-restaurants">Oakville</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/oshawa-restaurants">Oshawa</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/stoney-creek-restaurants">Stoney
-                                                        Creek</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/thornhill-restaurants">Thornhill</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/waterdown-restaurants">Waterdown</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/waterloo-erbsville-restaurants">Waterloo
-                                                        Erbsville</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/whitby-restaurants">Whitby</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://symposiumcafe.com/locations/woodbridge-restaurants">Woodbridge</a>
-                                                </li>
+                                                {results.map(result =>{
+                                                    const {id, name }= result;
+                                                    return(
+                                                        <li key={id} >
+                                                            <a href="https://symposiumcafe.com/locations/ajax-restaurants">
+                                                                <h2>{name}</h2>
+                                                            </a>
+                                                        </li>
+                                                    )
+                                                })}
+
                                             </ul>
                                         </div>
                                         <div className="col-lg-4 yellow-bg" id="opening-soon">
@@ -159,4 +101,15 @@ export default function LocationBody()
         </div>
 
     )
+}
+
+export async function getServerSideProps() {
+    const res = await (defaultEndpoint);
+    const data = await res.json();
+    return {
+        props: {
+            data
+        }
+    }
+
 }

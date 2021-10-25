@@ -439,23 +439,24 @@ export default function MenuBody()
                                                 <div className="background-black-menu"><strong>SEE OUR BAR MENU for
                                                     WINE, BEER and COCKTAILS</strong></div>
                                             </div>
-                                            <div className="left-menu">
+                                            <div className="left-menu" style={{float:"left", width:"50%"}}>
                                                 <ul>
                                                     <li><strong>Fruit Freezies</strong> Fresh fruit blended with ice.
-                                                        4.95 <p style={{maxWidth:"16px", display:"inline-block"}}> Select one
+                                                        4.95 <p> Select one
                                                             fruit or create your own unique combination of Strawberry
                                                             (40 Cals), Banana (100 Cals), Raspberry (60 Cals), Blueberry
                                                             (70 Cals), Blackberry (50 Cals) or Pineapple (60 Cals)</p>
                                                     </li>
                                                     <li>
                                                         <strong>European Soda</strong> A Symposium Favourite! <p
-                                                        style={{maxWidth:"16px", display:"inline-block"}}> A light and
+                                                        style={{display:"inline-block"}}> A light and
                                                         refreshing soda beverage in delicious fruit flavours including
                                                         Peach, Mango, Strawberry, Raspberry & Kiwi. Ask for your
                                                         favourite. 3.95 (80 Cals) </p></li>
                                                 </ul>
                                             </div>
-                                            <div className="right-menu">
+
+                                            <div className="right-menu" style={{float:"right", width:"50%"}}>
                                                 <ul>
                                                     <li><strong>Evian Spring Water</strong> (330ml) 3.45 (0 Cals)</li>
                                                     <li><strong>Perrier Mineral Water</strong> (330ml) 3.45 (0 Cals)
@@ -479,16 +480,22 @@ export default function MenuBody()
                                                         </div>
                                                     </li>
                                                 </ul>
-                                            </div>
+                                            </div></div>
 
                                             <div className="clearfix"></div>
-                                            <div className="full-menu">
+                                        <div>
+                                            <div className="full-menu" style={{float:"left"}}>
                                                 <div className="background-black-menu"><h4><strong>AS WE SAFELY REOPEN
                                                     FOR DINING, HERES WHAT YOU CAN EXPECT TO SEE AT SYMPOSIUM:</strong>
                                                 </h4>
+                                                    <div>
                                                     <ul>
-                                                        <li><strong>CARE for HEALTHY TEAM MEMBERS</strong> <br/><em>daily
-                                                            temperature checks</em></li>
+                                                        <li>
+                                                            <strong>CARE for HEALTHY TEAM MEMBERS</strong>
+                                                            <br/>
+                                                            <em>daily
+                                                            temperature checks</em>
+                                                        </li>
                                                         <li><strong>PROTECTIVE EQUIPMENT</strong> <br/><em>masks to be
                                                             worn by all team members</em></li>
                                                         <li><strong>FREQUENT HANDWASHING</strong> <br/><em>and hand
@@ -498,29 +505,35 @@ export default function MenuBody()
                                                         <li><strong>CLEANING PROCEDURES</strong> <br/><em>your table
                                                             disinfected before your visit</em></li>
                                                     </ul>
+                                                    </div>
                                                     <div className="clearfix"></div>
                                                 </div>
-                                                <p><small>Adults and youth (ages 13 and older) need an average of 2,000
-                                                    calories a day, and children (ages 4 to 12) need an average of 1,500
-                                                    calories a day. However, individual needs vary. Any add-ons or
-                                                    substitutions add indicated calories to total calorie count. <Image
-                                                        src={Vegan} width={31} hidden={31} alt="Vegan icon"
-                                                        className="img-responsive"
-                                                        style={{maxWidth:"16px", display:"inline-block"}}/> indicates
+
+                                                <div>
+                                                    <p><small>Adults and youth (ages 13 and older) need an average of 2,000
+                                                        calories a day, and children (ages 4 to 12) need an average of 1,500
+                                                        calories a day. However, individual needs vary. Any add-ons or
+                                                        substitutions add indicated calories to total calorie count. <Image
+                                                            src={Vegan} width={16} height={16} alt="Vegan icon"
+                                                            className="img-responsive"
+                                                            style={{maxWidth:"16px", display:"inline-block"}}/> indicates
                                                         vegetarian. All items identified with <Image
-                                                        src={Gluten} width={31} height={31} alt="Gluten free icon"
+                                                            src={Gluten} width={16} height={16} alt="Gluten free icon"
                                                             className="img-responsive"
                                                             style={{maxWidth:"16px", display:"inline-block"}}/> are
-                                                            considered gluten friendly; however, the possibility of
-                                                            cross contact with gluten items does exist. Please notify
-                                                            management if you have allergies.</small></p>
-                                                <hr/><p>At this time only these menu items are being offered to our
+                                                        considered gluten friendly; however, the possibility of
+                                                        cross contact with gluten items does exist. Please notify
+                                                        management if you have allergies.</small></p>
+                                                    <hr/><p>At this time only these menu items are being offered to our
                                                     Symposium guests. Specials offers, daily features, or promotions –
                                                     unless offered by the individual location – are not valid nor
                                                     available until further notice. We thank you for your understanding
                                                     and ongoing support. All menu items subject to availability. Prices
                                                     subject to change.</p>
+                                                </div>
                                             </div>
+
+
                                         </div>
                                     </div>
                                     <div className="col-md-4" style={{width:"250", float:"right"}}>

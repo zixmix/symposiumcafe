@@ -84,9 +84,9 @@ export default function FranchiseBody()
                                     Experience&#8482;</p>
                                 <h2>Join our Award-Winning Restaurant Franchise Team</h2>
                                 <p>Awarded Canadian FRANCHISE OF THE YEAR for both
-                                    <a href="http://www.newswire.ca/news-releases/canadian-franchise-association-announces-winners-of-the-2017-awards-of-excellence-in-franchising-618221963.html"
-                                    >2017</a> and <a href="http://campaign.r20.constantcontact.com/render?m=1118295573310&ca=d75cf609-bba6-41ce-9a8c-ce1191231a09"
-                                    >2018</a> by the Canadian Franchise Association, Symposium Cafe
+                                    <Link href="http://www.newswire.ca/news-releases/canadian-franchise-association-announces-winners-of-the-2017-awards-of-excellence-in-franchising-618221963.html"
+                                    >2017</Link> and <Link href="http://campaign.r20.constantcontact.com/render?m=1118295573310&ca=d75cf609-bba6-41ce-9a8c-ce1191231a09"
+                                    >2018</Link> by the Canadian Franchise Association, Symposium Cafe
                                     Restaurant & Lounge is an unique and exciting food concept: an upscale, licensed,
                                     full service restaurant chain with a menu which caters to a variety of dining
                                     categories (breakfast, brunch, burgers and much more) and includes decadent
@@ -145,26 +145,28 @@ export default function FranchiseBody()
 
                                 <div className="row">
                                     <div className="franchise-list">
-                                        <div className="col-lg-6 ">
+                                        <div style={{width:"50%", float:"left"}}>
+                                        <div className="col-lg-6 " >
                                             <div className="row">
-                                                <div className="col-lg-4 col-sm-4 col-xs-6">
-                                                    <a href="https://symposiumcafe.com/franchise-opportunities/why-a-symposium-cafe-franchise">
+                                                <div className="col-lg-4 col-sm-4 col-xs-6" style={{width:"30%", float:"left"}}>
+                                                    <Link href="/franchise/whySymposium">
                                                         <div className="abs-border-mini">
                                                             <Image src={Sym} width={151} height={100}
                                                                 alt="Why a Symposium Franchise?" className="abs-border-img"/>
                                                         </div>
-                                                    </a>
+                                                    </Link>
                                                 </div>
-                                                <div className="col-lg-8 col-sm-8 col-xs-12">
-                                                    <a href="https://symposiumcafe.com/franchise-opportunities/why-a-symposium-cafe-franchise">
-                                                        <div className="franchise-heading">Why a Symposium Franchise?
-                                                        </div>
-                                                    </a>
+                                                <div className="col-lg-8 col-sm-8 col-xs-12" style={{width:"70%", float:"right"}}>
+                                                    <div className="franchise-heading">
+                                                        <Link href="/franchise/whySymposium">Why a Symposium Franchise?
+                                                        </Link>
+                                                    </div>
+
                                                     <ul>
                                                         <li>Grand Prize Winner –
-                                                            <a href="https://www.newswire.ca/news-releases/canadian-franchise-association-announces-winners-of-the-2017-awards-of-excellence-in-franchising-618221963.html">2017</a> &
-                                                            <a href="http://campaign.r20.constantcontact.com/render?m=1118295573310&ca=d75cf609-bba6-41ce-9a8c-ce1191231a09"
-                                                            >2018</a>! “Best Traditional Franchise”
+                                                            <Link href="https://www.newswire.ca/news-releases/canadian-franchise-association-announces-winners-of-the-2017-awards-of-excellence-in-franchising-618221963.html">2017</Link> &
+                                                            <Link href="http://campaign.r20.constantcontact.com/render?m=1118295573310&ca=d75cf609-bba6-41ce-9a8c-ce1191231a09"
+                                                            >2018</Link>! “Best Traditional Franchise”
                                                             awarded by the Canadian Franchise Association
                                                         </li>
                                                         <li>Franchisees’ Choice Award Winner 2011-2018 – 8 Consecutive
@@ -178,21 +180,49 @@ export default function FranchiseBody()
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-6 ">
+                                        <div className="col-lg-6 " >
                                             <div className="row">
-                                                <div className="col-lg-4 col-sm-4 col-xs-6">
-                                                    <a href="https://symposiumcafe.com/franchise-opportunities/franchise-facts">
+                                                <div className="col-lg-4 col-sm-4 col-xs-6" style={{width:"30%", float:"left"}}>
+                                                    <Link href="/franchise/currentLocation">
                                                         <div className="abs-border-mini">
                                                             <Image
                                                                 src={Sym2} width={151} height={100}
-                                                                alt="Franchise Facts" className="abs-border-img"/>
+                                                                alt="Current Opportunities" className="abs-border-img"/>
                                                         </div>
-                                                    </a>
+                                                    </Link>
                                                 </div>
-                                                <div className="col-lg-8 col-sm-8 col-xs-12">
-                                                    <a href="https://symposiumcafe.com/franchise-opportunities/franchise-facts">
-                                                        <div className="franchise-heading">Franchise Facts</div>
-                                                    </a>
+                                                <div className="col-lg-8 col-sm-8 col-xs-12" style={{width:"70%", float:"right"}}>
+
+                                                        <div className="franchise-heading">
+                                                            <Link href="/franchise/currentLocation">Current Opportunities</Link>
+                                                        </div>
+
+                                                    <p>Were expanding & have numerous franchise opportunities in
+                                                        Ontario. With 5-7 openings in the coming year, and repeated
+                                                        growth over the next 3 years, you can be part of our exciting
+                                                        company plan.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div style={{width:"50%", float:"right"}}>
+                                        <div className="col-lg-6 ">
+                                            <div className="row">
+                                                <div className="col-lg-4 col-sm-4 col-xs-6" style={{width:"30%", float:"left"}}>
+                                                    <Link href="/franchise/franchiseFacts">
+                                                        <div className="abs-border-mini">
+                                                            <Image
+                                                                src={Desno} width={151} height={100}
+                                                                alt="Franchise Facts"
+                                                                className="abs-border-img"/>
+                                                        </div>
+                                                    </Link>
+                                                </div>
+                                                <div className="col-lg-8 col-sm-8 col-xs-12" style={{width:"70%", float:"right"}}>
+
+
+                                                        <div className="franchise-heading"><Link href="/franchise/franchiseFacts">Franchise Facts </Link></div>
+
                                                     <ul>
                                                         <li>Restaurant Brand established in 1996</li>
                                                         <li>Number of Franchise <br/> Locations: 29</li>
@@ -205,22 +235,25 @@ export default function FranchiseBody()
                                         </div>
                                         <div className="col-lg-6 ">
                                             <div className="row">
-                                                <div className="col-lg-4 col-sm-4 col-xs-6">
-                                                    <a href="https://symposiumcafe.com/franchise-opportunities/franchising-investment-details">
+                                                <div className="col-lg-4 col-sm-4 col-xs-6" style={{width:"30%", float:"left"}}>
+                                                    <Link href="/franchise/franchisingInvestment">
                                                         <div className="abs-border-mini">
                                                             <Image
-                                                                src={Desno} width={151} height={100}
-                                                                alt="Franchising Investment Details"
-                                                                className="abs-border-img"/>
+                                                                src={Desno1} width={151} height={100}
+                                                                alt="Franchising Investment
+                                                            Details" className="abs-border-img"/>
                                                         </div>
-                                                    </a>
+                                                    </Link>
                                                 </div>
-                                                <div className="col-lg-8 col-sm-8 col-xs-12">
-                                                    <a href="https://symposiumcafe.com/franchise-opportunities/franchising-investment-details">
-                                                        <div className="franchise-heading">Franchising Investment
-                                                            Details
+                                                <div className="col-lg-8 col-sm-8 col-xs-12" style={{width:"70%", float:"right"}}>
+
+
+                                                        <div className="franchise-heading">
+                                                            <Link href="/franchise/franchisingInvestment">
+                                                                Franchising Investment
+                                                            Details </Link>
                                                         </div>
-                                                    </a>
+
                                                     <p>Purchase of a new Turn Key Symposium Cafe Restaurant & Lounge
                                                         location ranges from $665-$730K – dependent on location</p>
                                                 </div>
@@ -228,41 +261,19 @@ export default function FranchiseBody()
                                         </div>
                                         <div className="col-lg-6 ">
                                             <div className="row">
-                                                <div className="col-lg-4 col-sm-4 col-xs-6">
-                                                    <a href="https://symposiumcafe.com/franchise-opportunities/current-locations-for-sale">
-                                                        <div className="abs-border-mini">
-                                                            <Image
-                                                                src={Desno1} width={151} height={100}
-                                                                alt="Current Opportunities" className="abs-border-img"/>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div className="col-lg-8 col-sm-8 col-xs-12">
-                                                    <a href="https://symposiumcafe.com/franchise-opportunities/current-locations-for-sale">
-                                                        <div className="franchise-heading">Current Opportunities</div>
-                                                    </a>
-                                                    <p>Were expanding & have numerous franchise opportunities in
-                                                        Ontario. With 5-7 openings in the coming year, and repeated
-                                                        growth over the next 3 years, you can be part of our exciting
-                                                        company plan.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 ">
-                                            <div className="row">
-                                                <div className="col-lg-4 col-sm-4 col-xs-6">
-                                                    <a href="https://symposiumcafe.com/franchise-opportunities/faq">
+                                                <div className="col-lg-4 col-sm-4 col-xs-6" style={{width:"30%", float:"left"}}>
+                                                    <Link href="/franchise/faq">
                                                         <div className="abs-border-mini">
                                                             <Image
                                                                 src={Desno2} width={151} height={100}
                                                                 alt="FAQ" className="abs-border-img"/>
                                                         </div>
-                                                    </a>
+                                                    </Link>
                                                 </div>
-                                                <div className="col-lg-8 col-sm-8 col-xs-12">
-                                                    <a href="https://symposiumcafe.com/franchise-opportunities/faq">
-                                                        <div className="franchise-heading">FAQ</div>
-                                                    </a>
+                                                <div className="col-lg-8 col-sm-8 col-xs-12" style={{width:"70%", float:"right"}}>
+
+                                                        <div className="franchise-heading"><Link href="/franchise/faq">FAQ</Link></div>
+
                                                     <p> The Symposium Cafe attracts a casual dining clientele, that
                                                         appreciates a well designed restaurant, and good quality
                                                         food.</p>
@@ -271,35 +282,36 @@ export default function FranchiseBody()
                                         </div>
                                         <div className="col-lg-6 ">
                                             <div className="row">
-                                                <div className="col-lg-4 col-sm-4 col-xs-6">
-                                                    <a href="https://symposiumcafe.com/franchise-opportunities/contact-us">
+                                                <div className="col-lg-4 col-sm-4 col-xs-6" style={{width:"30%", float:"left"}}>
+                                                    <Link href="/franchise/contactUs">
                                                         <div className="abs-border-mini">
                                                             <Image
                                                                 src={Desno3} width={151} height={100}
                                                                 alt="Contact us" className="abs-border-img"/>
                                                         </div>
-                                                    </a>
+                                                    </Link>
                                                 </div>
-                                                <div className="col-lg-8 col-sm-8 col-xs-12">
-                                                    <a href="https://symposiumcafe.com/franchise-opportunities/contact-us">
-                                                        <div className="franchise-heading">Contact us</div>
-                                                    </a>
+                                                <div className="col-lg-8 col-sm-8 col-xs-12" style={{width:"70%", float:"right"}}>
+
+                                                        <div className="franchise-heading"><Link href="/franchise/contactUs">Contact us</Link></div>
+
                                                     <p>Our corporate office is located in North York to serve you.
                                                         Please book your
                                                         appointment at
                                                         <br/>
-                                                        <a href="tel:1-416-449-3611" className="bold purple-text">1-416-449-3611</a>
+                                                        <Link href="tel:1-416-449-3611" className="bold purple-text">1-416-449-3611</Link>
                                                         or email
-                                                        <a href=""
+                                                        <Link href=""
                                                                 className="bold purple-text">
                                                             <span className="__cf_email__"
                                                                 data-cfemail="c1a8afa7ae81b2b8acb1aeb2a8b4aca2a0a7a4efa2aeac">
                                                                 [email&#160;protected]
                                                             </span>
-                                                        </a>
+                                                        </Link>
                                                     </p>
                                                 </div>
                                             </div>
+                                        </div>
                                         </div>
                                     </div>
                                 </div>
