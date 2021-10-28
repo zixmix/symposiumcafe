@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Slika1 from "/public/images/header/logo (1).png"
+import locations from "/data/location.js"
+
 
 
 export default function Header()
@@ -38,175 +40,18 @@ export default function Header()
 
 
                                         <ul>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/ajax">
-                                                    <a>
-                                                        Ajax
-                                                    </a>
-                                                </Link>
-
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/alliston">
-                                                <a>
-                                                    Alliston
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/amcaster">
-                                                <a>
-                                                    Ancaster
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/aurorab">
-                                                <a>
-                                                    Aurora
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/barrie">
-                                                <a>
-                                                    Barrie
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/bolton">
-                                                <a>
-                                                    Bolton
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/brantford">
-                                                <a>
-                                                    Brantford
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/cambridge">
-                                                <a>
-                                                    Cambridge
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/cobourg">
-                                                <a>
-                                                    Cobourg
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/grorgetown">
-                                                <a>
-                                                    Georgetown
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/guelph">
-                                                <a>
-                                                    Guelph
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/keswick">
-                                                <a>
-                                                    Keswick
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/lindsay">
-                                                <a>
-                                                    Lindsay
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/markham">
-                                                <a>
-                                                    Markham
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/milton">
-                                                <a>
-                                                    Milton
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/mississauga">
-                                                <a>
-                                                    Mississauga South
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/oakville">
-                                                <a>
-                                                    Oakville
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/osnawa">
-                                                <a>
-                                                    Oshawa
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/stoney">
-                                                <a>
-                                                    Stoney Creek
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/thornhill">
-                                                <a>
-                                                    Thornhill
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/waterdown">
-                                                <a>
-                                                    Waterdown
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/waterlo">
-                                                <a>
-                                                    Waterloo Erbsville
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/whitby">
-                                                <a>
-                                                    Whitby
-                                                </a>
-                                                </Link>
-                                            </li>
-                                            <li itemProp="name">
-                                                <Link itemProp="url" href="/location/woodbridge">
-                                                <a>
-                                                    Woodbridge
-                                                </a>
-                                                </Link>
-                                            </li>
+                                            {locations.map(result => {
+                                                const {id, name} = result;
+                                                return (
+                                                    <li itemProp="name">
+                                                    <Link href={'/location/'+result.id} key={id}>
+                                                        <a href="https://symposiumcafe.com/locations/ajax-restaurants">
+                                                            {name}
+                                                        </a>
+                                                    </Link>
+                                                    </li>
+                                                )
+                                            })}
                                         </ul>
 
 
