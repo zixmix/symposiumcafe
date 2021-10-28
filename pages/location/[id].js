@@ -3,7 +3,7 @@ import Link from "next/link";
 
 
 export const getStaticPaths = async () =>{
-    const res = await fetch("https://my-json-server.typicode.com/typicode/demo/posts");
+    const res = await fetch("https://jsonformatter.org/json-editor/87a856");
     const data = await res.json();
 
     const paths = data.map(location=>{
@@ -19,7 +19,7 @@ export const getStaticPaths = async () =>{
 
 export const getStaticProps = async (context) => {
     const id = context.params.id;
-    const res = await fetch("https://my-json-server.typicode.com/typicode/demo/posts/"+ id);
+    const res = await fetch("https://jsonformatter.org/json-editor/87a856/"+ id);
     const data = await res.json();
     return{
         props: {location: data}
