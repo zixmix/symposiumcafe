@@ -75,7 +75,6 @@ alt="https://symposiumcafe.com/" className="img-responsive"/>
                                             <Link href={'/location/'+result.id} key={id}>
                                                 <a href="https://symposiumcafe.com/locations/ajax-restaurants">
                                                     <h2>{name}</h2>
-                                                    <h3>{fles}</h3>
                                                 </a>
                                             </Link>
                                         )
