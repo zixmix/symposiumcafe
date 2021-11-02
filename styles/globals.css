@@ -118,3 +118,40 @@ nav li:hover ul {
 .red-text {
   color: #db1d76 !important;
 }
+.location-menu-link {
+  display: none;
+}
+
+@media  screen and (max-width: 992px) {
+  .location-menu-link {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .location-menu-link a {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .location-content-text {
+    display: table-footer-group;
+  }
+
+  .location-content-widget .location-widget {
+    margin-bottom: 25px;
+  }
+
+  .location-content-widget {
+    display: table-cell;
+
+  }
+
+  .promotions-seven {
+    display: inline-block;
+  }
+
+  .promotions-seven .content-of-day {
+    display: table-column-group;
+  }
+}

@@ -8,7 +8,8 @@ const locations =
             "phone": "905-683-3232",
             "email": "symposium.ajax@symposiumcafe.com",
             "facebook": "https://www.facebook.com/SymposiumCafeAjax/",
-            "yelp": "https://www.yelp.ca/biz/symposium-caf%C3%A9-restaurant-and-lounge-ajax-ajax"
+            "yelp": "https://www.yelp.ca/biz/symposium-caf%C3%A9-restaurant-and-lounge-ajax-ajax",
+            "fles": "proba"
         },
         {
             "id": "2",

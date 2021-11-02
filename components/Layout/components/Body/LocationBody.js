@@ -70,11 +70,12 @@ alt="https://symposiumcafe.com/" className="img-responsive"/>
                             <div className="col-lg-8">
                                 <ul className="three-columns-list">
                                     {locations.map(result => {
-                                        const {id, name} = result;
+                                        const {id, name, fles} = result;
                                         return (
                                             <Link href={'/location/'+result.id} key={id}>
                                                 <a href="https://symposiumcafe.com/locations/ajax-restaurants">
                                                     <h2>{name}</h2>
+                                                    <h3>{fles}</h3>
                                                 </a>
                                             </Link>
                                         )
