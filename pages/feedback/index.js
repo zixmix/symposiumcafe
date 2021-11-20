@@ -1,12 +1,12 @@
 import React from "react";
-import FeedBackBody from "../../components/Layout/components/Body/FeedBackBody";
+import FeedbackBody from "../../components/Layout/components/Pages/Feedback/index";
 
-export default function Index({})
+export default function Feedback({})
 {
     return(
         <div>
             <>
-                <FeedBackBody/>
+                <FeedbackBody/>
             </>
         </div>
     )

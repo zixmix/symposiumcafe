@@ -1,5 +1,5 @@
 import React from "react";
-import BreakfastBody from "../../components/Layout/components/Body/BreakfastBody";
+import BreakfastBody from "../../components/Layout/components/Pages/Charity/BreakfastBody";
 
 export default function Breakfast({})
 {

@@ -1,5 +1,5 @@
 import React from "react";
-import MenuBody from "../../components/Layout/components/Body/MenuBody";
+import MenuBody from "../../components/Layout/components/Pages/Menu/index";
 
 export default function Menu({})
 {

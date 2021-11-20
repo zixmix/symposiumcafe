@@ -1,5 +1,5 @@
 import React from "react";
-import FranContactBody from "../../components/Layout/components/Body/FranContactBody";
+import FranContactBody from "../../components/Layout/components/Pages/Franchise/FranContactBody";
 
 export default function ContactUs({})
 {

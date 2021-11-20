@@ -35,10 +35,14 @@ export const getStaticPaths = async () =>{
         fallback:false
     }
 }
+function mojaFunkcija(url){
+    return '1';
+}
 
 export const getStaticProps = async (context) => {
     const id = context.params.id;
     const res = await fetch("https://my-json-server.typicode.com/zixmix/json-data-sympo/locations/"+ id);
+    const rest = mojaFunkcija("https://my-json-server.typicode.com/zixmix/json-data-sympo/locations/"+ id);
     const data = await res.json();
     return{
         props: {location: data}

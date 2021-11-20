@@ -13,22 +13,22 @@ export default function TopBar()
                                 <div className="top-nav-left" id="first-nav">
                                     <ul className="top-left-list">
                                         <li>
-                                            <Link href="/decor">
+                                            <Link href="/decor" passHref>
                                                 <a>Decor</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/feedback">
+                                            <Link href="/feedback" passHref>
                                                 <a>Feedback</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/charity">
+                                            <Link href="/charity" passHref>
                                                 <a>Charity</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/kontakt">
+                                            <Link href="/contact" passHref>
                                                 <a>Contact Us</a>
                                             </Link>
                                         </li>
@@ -36,17 +36,17 @@ export default function TopBar()
                                 </div>
                                 <ul className="top-right-nav">
                                     <li>
-                                        <Link className="gold-text" href="https://order2.silverwarepos.com/app/SymposiumCafe#!/stores" target="_blank">
+                                        <Link className="gold-text" href="https://order2.silverwarepos.com/app/SymposiumCafe#!/stores" passHref>
                                             <a>ORDER ONLINE</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/delivery" className="gold-text" style={{color:'#d2c41a;'}}>
+                                        <Link href="/delivery" className="gold-text" style={{color:'#d2c41a;'}} passHref>
                                             <a>Delivery</a>
                                         </Link>
                                 </li>
                                 <li>
-                                    <Link href="https://cws.givex.com/cws4.0/symposium4/" className="gold-text" style={{color:'#d2c41a;'}}>
+                                    <Link href="https://cws.givex.com/cws4.0/symposium4/" className="gold-text" style={{color:'#d2c41a;'}} passHref>
                                         <a>Online Gift Cards</a>
                                     </Link>
                             </li>

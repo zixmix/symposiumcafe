@@ -1,5 +1,5 @@
 import React from "react";
-import FranInvestBody from "../../components/Layout/components/Body/FranInvestBody";
+import FranInvestBody from "../../components/Layout/components/Pages/Franchise/FranInvestBody";
 
 export default function FranchisingInvestment({})
 {

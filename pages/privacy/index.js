@@ -1,8 +1,8 @@
 import React from "react";
-import PrivacyBody from "../../components/Layout/components/Body/PrivacyBody";
+import PrivacyBody from "../../components/Layout/components/Pages/Privacy/index";
 
 
-export default function Privacy({})
+export default function Privacy()
 {
     return(
         <div>

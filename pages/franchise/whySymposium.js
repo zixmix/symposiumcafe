@@ -1,5 +1,5 @@
 import React from "react";
-import FranWhySymp from "../../components/Layout/components/Body/FranWhySymp";
+import FranWhySymp from "../../components/Layout/components/Pages/Franchise/FranWhySymp";
 
 export default function WhySymposium({})
 {

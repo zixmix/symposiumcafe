@@ -1,12 +1,12 @@
 import React from "react";
-import DeliveryBody from "../../components/Layout/components/Body/DeliveryBody";
+import Index from "../../components/Layout/components/Pages/Delivery";
 
 export default function Delivery({})
 {
     return(
         <div>
             <>
-                <DeliveryBody/>
+                <Index/>
             </>
         </div>
     )

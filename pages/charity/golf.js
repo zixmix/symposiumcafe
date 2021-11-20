@@ -1,5 +1,5 @@
 import React from "react";
-import GolfBody from "../../components/Layout/components/Body/GolfBody";
+import GolfBody from "../../components/Layout/components/Pages/Charity/GolfBody";
 
 export default function Golf({})
 {

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Slika1 from "/public/images/header/logo (1).png"
+import {Symposiumlogo} from "../../../../data/images";
 import locations from "/data/location.js"
 
 
@@ -15,26 +15,26 @@ export default function Header()
                 <div className="col-lg-11 centered">
                     <div className="padding-logo-nav">
                         <div className="logo">
-                            <Link  href="/">
+                            <Link  href="/" passHref>
                                 <a>
-                                    <Image src={Slika1} width={268} height={107} alt="Symposium Cafe Restaurant Logo"/>
+                                    <Image src={Symposiumlogo} width={268} height={107} alt="Symposium Cafe Restaurant Logo"/>
                                 </a>
                             </Link>
                             <nav role="navigation" itemScope itemType="http://schema.org/SiteNavigationElement">
                                 <ul>
 
                                     <li itemProp="name">
-                                        <Link href="/"  itemProp="url">
+                                        <Link href="/"  itemProp="url" passHref>
                                             <a>Home</a>
                                         </Link>
                                     </li>
                                     <li itemProp="name">
-                                        <Link href="/menu" itemProp="name">
+                                        <Link href="/menu" itemProp="name" passHref>
                                             <a>MENU</a>
                                         </Link>
                                     </li>
                                     <li itemProp="name">
-                                        <Link itemProp="name" href="/location">
+                                        <Link itemProp="name" href="/location" passHref>
                                             <a>Locations</a>
                                         </Link>
 
@@ -44,7 +44,7 @@ export default function Header()
                                                 const {id, name} = result;
                                                 return (
                                                     <li itemProp="name">
-                                                    <Link href={'/location/'+result.id} key={id}>
+                                                    <Link href={'/location/'+result.id} key={id} passHref>
                                                         <a href="https://symposiumcafe.com/locations/ajax-restaurants">
                                                             {name}
                                                         </a>
@@ -57,19 +57,19 @@ export default function Header()
 
                                     </li>
                                     <li itemProp="name">
-                                        <Link itemProp="name" href="/galery">
+                                        <Link itemProp="name" href="/gallery" passHref>
                                             <a>Gallery</a>
                                         </Link>
 
                                     </li>
                                     <li itemProp="name">
-                                        <Link itemProp="name" href="/franchise">
+                                        <Link itemProp="name" href="/franchise" passHref>
                                             <a>Franchise</a>
                                         </Link>
 
                                     </li>
                                     <li itemProp="name">
-                                        <Link itemProp="name" href="/about">
+                                        <Link itemProp="name" href="/about" passHref>
                                             <a>About Us</a>
                                         </Link>
 

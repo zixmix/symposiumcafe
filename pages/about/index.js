@@ -1,5 +1,5 @@
 import React from "react";
-import AboutBody from "../../components/Layout/components/Body/AboutBody";
+import AboutBody from "../../components/Layout/components/Pages/About/index";
 
 export default function About({})
 {

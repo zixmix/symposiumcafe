@@ -1,7 +1,7 @@
 import React from "react";
-import LocationBody from "../../components/Layout/components/Body/LocationBody";
+import LocationBody from "../../components/Layout/components/Pages/Location/index";
 
-export default function Location({}) {
+export default function Location() {
     return (
         <div>
             <>

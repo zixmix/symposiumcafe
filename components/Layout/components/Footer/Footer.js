@@ -1,12 +1,8 @@
 import React from "react"
 import Image from "next/image";
 import Link from "next/link";
-import Silka1 from "/public/images/footer/logo.png"
-import Slika2 from "/public/images/footer/fb.png"
-import Slika3 from "/public/images/footer/yelp.png"
-import Slika4 from "/public/images/footer/trip.png"
-import Slika5 from "/public/images/footer/instagram.png"
-import Slika6 from "/public/images/footer/zomato.png"
+import {Symposium, Face, Biz, Trip, Zomato, Insta} from '../../../../data/images';
+
 
 export default function Footer()
 {
@@ -18,9 +14,9 @@ export default function Footer()
                         <div className="col-lg-12">
                             <div className="col-lg-3 col-sm-6">
                                 <div className="footer-logo centered">
-                                    <Link href="/">
+                                    <Link href="/" passHref>
                                         <a>
-                                            <Image src={Silka1} width={268} height={107} alt="Symposium Cafe Restaurant Logo"/>
+                                            <Image src={Symposium} width={268} height={107} alt="Symposium Cafe Restaurant Logo"/>
                                         </a>
                                     </Link>
                                 </div>
@@ -34,30 +30,30 @@ export default function Footer()
                             <div className="col-lg-3 col-sm-6">
                                 <ul className="get-social-list">
                                     <li>
-                                        <Link href="https://www.facebook.com/pages/The-Symposium-Cafe-Restaurants/175747402455407">
+                                        <Link href="https://www.facebook.com/pages/The-Symposium-Cafe-Restaurants/175747402455407" passHref>
                                             <a>
-                                                <Image src={Slika2} width={48} height={48} alt="Facebook"/>
+                                                <Image src={Face} width={32} height={32} alt="Facebook"/>
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="https://www.yelp.ca/biz/symposium-caf%C3%A9-restaurant-and-lounge-ajax-ajax">
+                                        <Link href="https://www.yelp.ca/biz/symposium-caf%C3%A9-restaurant-and-lounge-ajax-ajax" passHref>
                                             <a>
-                                                <Image src={Slika3} width={48} height={48} alt="Yelp"/>
+                                                <Image src={Biz} width={32} height={32} alt="Yelp"/>
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="https://www.tripadvisor.ca/Restaurant_Review-g499247-d4607684-Reviews-Symposium_Cafe_Restaurant_Lounge_Ajax-Ajax_Ontario.html">
+                                        <Link href="https://www.tripadvisor.ca/Restaurant_Review-g499247-d4607684-Reviews-Symposium_Cafe_Restaurant_Lounge_Ajax-Ajax_Ontario.html" passHref>
                                             <a>
-                                                <Image src={Slika4} width={48} height={48} alt="Trip Advisor"/>
+                                                <Image src={Trip} width={32} height={32} alt="Trip Advisor"/>
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="https://www.zomato.com/toronto/symposium-cafe-restaurant-lounge-ajax-gta">
+                                        <Link href="https://www.zomato.com/toronto/symposium-cafe-restaurant-lounge-ajax-gta" passHref>
                                             <a>
-                                                <Image src={Slika6} width={48} height={48} alt="Zomato"/>
+                                                <Image src={Zomato} width={32} height={32} alt="Zomato"/>
                                             </a>
                                         </Link>
                                     </li>
@@ -65,9 +61,11 @@ export default function Footer()
                                 <div className="footer-socials">
                                     <div className="col-xs-12">
                                         <div id="instaeed" className="instafeed">
-                                            <Image src={Slika5} width={48} height={48} alt="Instagram"/>
-                                            <Link href="https://www.instagram.com/symposiumcafe_restaurantlounge/">
+
+                                            <Link href="https://www.instagram.com/symposiumcafe_restaurantlounge/" passHref>
+
                                                 <a style={{color:"gold"}}>
+                                                    <Image src={Insta} width={32} height={32} alt="Instagram"/>
                                                     <span>#symposiumcafe</span>
                                                 </a>
                                             </Link>
@@ -79,23 +77,23 @@ export default function Footer()
                                 <div className="footer-title">More...</div>
                                 <ul className="footer-list">
                                     <li>
-                                        <Link href="/feedback">
+                                        <Link href="/feedback" passHref>
                                             <a>Feedback</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/decor">
+                                        <Link href="/decor" passHref>
                                             <a>Decor</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/franchise">
+                                        <Link href="/franchise" passHref>
                                             <a>Franchise information</a>
                                         </Link>
 
                                     </li>
                                     <li>
-                                        <Link href="/privacy">
+                                        <Link href="/privacy" passHref>
                                             <a>Privacy Policy</a>
                                         </Link>
 
@@ -113,7 +111,7 @@ export default function Footer()
                                     </li>
                                 </ul>
                                 <h4 style={{color:"white"}}>See
-                                    <Link href="/location"  style={{color:"white"}} >
+                                    <Link href="/location"  style={{color:"white"}} passHref>
                                     <a>
                                         LOCATIONS
                                     </a>
@@ -133,8 +131,5 @@ export default function Footer()
                 </div>
             </footer>
         </div>
-
-
-
     )
 }

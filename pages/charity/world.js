@@ -1,5 +1,5 @@
 import React from "react";
-import WorldBody from "../../components/Layout/components/Body/WorldBody";
+import WorldBody from "../../components/Layout/components/Pages/Charity/WorldBody";
 
 export default function World({})
 {
