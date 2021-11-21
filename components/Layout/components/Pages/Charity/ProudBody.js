@@ -1,9 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import Pic from "/images/proud/proud-to-support.jpg"
 import BodyTop from "../../UI/BodyTop";
-import SideMeni from "./SideMeni";
+import SideMenu from "./SideMenu";
 
 export default function ProudBody()
 {
@@ -57,7 +56,7 @@ export default function ProudBody()
                                             <div className="header-h2">
                                                 <h1 className="text-center">Charity</h1>
                                             </div>
-                                            <SideMeni/>
+                                            <SideMenu/>
                                         </div>
                                     </div>
                                 </div>

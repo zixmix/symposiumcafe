@@ -59,9 +59,9 @@ export default function FranFactsBody()
                                                   href="/franchise/faq">FAQ</Link>
                                         </li>
                                         <li>
-                                            <Link style={{padding:"8px 4px"}}
-                                                  href="/franchise/contactUs">Contact
-                                                us</Link>
+                                            {/*<Link style={{padding:"8px 4px"}}*/}
+                                            {/*      href="/franchise/contactUs" passHref>Contact*/}
+                                            {/*    us</Link>*/}
                                         </li>
                                     </ul>
                                 </div>

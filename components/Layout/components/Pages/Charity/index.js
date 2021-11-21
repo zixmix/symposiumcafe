@@ -1,15 +1,17 @@
 import React from "react";
 import Pic from "/images/charity/charity.jpg"
-import {Breakfast_Club_of_Canada,Golf_for_a_Cure,World_Vision_International, Proud_to_Support} from '../../../../../data/images';
+import {
+    Breakfast_Club_of_Canada,
+    Golf_for_a_Cure,
+    World_Vision_International,
+    Proud_to_Support
+} from '../../../../../data/images';
 import BodyTop from "../../UI/BodyTop";
 import CharityPost from "./CharityPost";
 
 
 export default function CharityBody() {
-
     const posts = [
-
-
         {
             id: 1,
             title: "Breakfast Club of Canada",

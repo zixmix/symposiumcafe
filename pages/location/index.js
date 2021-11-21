@@ -4,9 +4,7 @@ import LocationBody from "../../components/Layout/components/Pages/Location/inde
 export default function Location() {
     return (
         <div>
-            <>
-                <LocationBody/>
-            </>
+            <LocationBody/>
         </div>
     )
 }

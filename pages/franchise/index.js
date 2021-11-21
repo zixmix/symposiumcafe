@@ -1,13 +1,10 @@
 import React from "react";
 import FranchiseBody from "../../components/Layout/components/Pages/Franchise/index";
 
-export default function Franchise({})
-{
-    return(
+export default function Franchise({}) {
+    return (
         <div>
-            <>
-                <FranchiseBody/>
-            </>
+            <FranchiseBody/>
         </div>
     )
 }

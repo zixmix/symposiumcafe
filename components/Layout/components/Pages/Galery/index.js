@@ -70,7 +70,7 @@ export default function GalleryBody()
                                             <div style={{height:"300", float:"left", width:"700px", padding:"10px"}}>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1453918885-garden-salad-with-jack-daniels-flat-iron-steak-symposium-cafe-restaurant--lounge.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1453918885-garden-salad-with-jack-daniels-flat-iron-steak-symposium-cafe-restaurant--lounge.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="980x653">
                                                     <Image
                                                         src={Pic1}
@@ -80,7 +80,7 @@ export default function GalleryBody()
                                             </figure>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1454533664-martini-purple-haze-mango-gin-vodka-olives-cocktail-symposium-cafe-restaurant-lounge.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1454533664-martini-purple-haze-mango-gin-vodka-olives-cocktail-symposium-cafe-restaurant-lounge.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="403x403">
                                                     <Image
                                                         src={Pic2}
@@ -90,7 +90,7 @@ export default function GalleryBody()
                                             </figure>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1461168416-symposium-chicken-wings.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1461168416-symposium-chicken-wings.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="980x653">
                                                     <Image
                                                         src={Pic3}
@@ -104,7 +104,7 @@ export default function GalleryBody()
                                             <div style={{height:"300", float:"left", width:"700px", padding:"10px"}}>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1461010700-salad-bean-and-quinoa-salad.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1461010700-salad-bean-and-quinoa-salad.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="800x501">
                                                     <Image
                                                         src={Pic4}
@@ -114,7 +114,7 @@ export default function GalleryBody()
                                             </figure>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject"style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1464523019-martini-summertime.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1464523019-martini-summertime.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="600x564">
                                                     <Image
                                                         src={Pic5}
@@ -125,7 +125,7 @@ export default function GalleryBody()
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject">
 
-                                                <Link href="https://symposiumcafe.com/images/gallery/1461168137-chicken-parmesan.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1461168137-chicken-parmesan.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="980x653">
                                                     <Image
                                                         src={Pic6}
@@ -138,7 +138,7 @@ export default function GalleryBody()
                                             <div style={{height:"300", float:"left", width:"700px", padding:"10px"}}>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1495478423-great-appetizers-happy-hour.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1495478423-great-appetizers-happy-hour.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="578x573">
                                                     <Image
                                                         src={Pic7}
@@ -148,7 +148,7 @@ export default function GalleryBody()
                                             </figure>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1453918875-eggs-benedict-ham-home-fries-delicious-hollandaise-symposium-cafe-restaurant-breakfast.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1453918875-eggs-benedict-ham-home-fries-delicious-hollandaise-symposium-cafe-restaurant-breakfast.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="980x653">
                                                     <Image
                                                         src={Pic8}
@@ -158,7 +158,7 @@ export default function GalleryBody()
                                             </figure>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1486055340-wine-&-milkshake-delicious-drinks.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1486055340-wine-&-milkshake-delicious-drinks.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="961x960">
                                                     <Image
                                                         src={Pic9}
@@ -171,7 +171,7 @@ export default function GalleryBody()
                                             <div style={{height:"300", float:"left", width:"700px", padding:"10px"}}>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1464522878-delicious-brunch.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1464522878-delicious-brunch.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="598x601">
                                                     <Image
                                                         src={Pic10}
@@ -181,7 +181,7 @@ export default function GalleryBody()
                                             </figure>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1461168415-butter-chicken-rice-bowl.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1461168415-butter-chicken-rice-bowl.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="980x653">
                                                     <Image
                                                         src={Pic11}
@@ -191,7 +191,7 @@ export default function GalleryBody()
                                             </figure>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1453918957-cafe-latte-milton-espresso-steamed-milk-coffeebreak-symposium-cafe-restaurant-lounge.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1453918957-cafe-latte-milton-espresso-steamed-milk-coffeebreak-symposium-cafe-restaurant-lounge.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="980x649">
                                                     <Image
                                                         src={Pic12}
@@ -204,7 +204,7 @@ export default function GalleryBody()
                                             <div style={{height:"300", float:"left", width:"700px", padding:"10px"}}>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1461168415-crispy-chicken-wrap-with-salad.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1461168415-crispy-chicken-wrap-with-salad.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="980x653">
                                                     <Image
                                                         src={Pic13}
@@ -214,7 +214,7 @@ export default function GalleryBody()
                                             </figure>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1488917333-breakfast-in-ancaster.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1488917333-breakfast-in-ancaster.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="586x589">
                                                     <Image
                                                         src={Pic14}
@@ -224,7 +224,7 @@ export default function GalleryBody()
                                             </figure>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1454533639-caffe-mocha-espresso-chocolate-whipped-cream-european-dessert-late-night-special-breakfast-club-sponsor.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1454533639-caffe-mocha-espresso-chocolate-whipped-cream-european-dessert-late-night-special-breakfast-club-sponsor.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="403x403">
                                                     <Image
                                                         src={Pic15}
@@ -237,7 +237,7 @@ export default function GalleryBody()
                                             <div style={{height:"300", float:"left", width:"700px", padding:"10px"}}>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1453918865-eggs-bacon-home-fries-toast-breakfast-brunch-delicious-symposium-cafe-restaurant-lounge-cambridge-georgetown.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1453918865-eggs-bacon-home-fries-toast-breakfast-brunch-delicious-symposium-cafe-restaurant-lounge-cambridge-georgetown.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="980x653">
                                                     <Image
                                                         src={Pic16}
@@ -247,7 +247,7 @@ export default function GalleryBody()
                                             </figure>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1464522878-brunch-with-yoda.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1464522878-brunch-with-yoda.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="595x591">
                                                     <Image
                                                         src={Pic17}
@@ -257,7 +257,7 @@ export default function GalleryBody()
                                             </figure>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1467919876-refreshing-sangria.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1467919876-refreshing-sangria.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="980x735">
                                                     <Image
                                                         src={Pic18}
@@ -270,7 +270,7 @@ export default function GalleryBody()
                                             <div style={{height:"300", float:"left", width:"700px", padding:"10px"}}>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1461010700-wrap-chicken--crispy-garden-salad-brunch-lunch-healthy-symposium.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1461010700-wrap-chicken--crispy-garden-salad-brunch-lunch-healthy-symposium.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="960x540">
                                                     <Image
                                                         src={Pic19}
@@ -280,7 +280,7 @@ export default function GalleryBody()
                                             </figure>
                                             <figure itemProp="associatedMedia" itemScope
                                                     itemType="http://schema.org/ImageObject" style={{width:"33%", float:"left"}}>
-                                                <Link href="https://symposiumcafe.com/images/gallery/1453918902-pasta-rice-bowls-guacamole-wonton-lime-spicy-red-wine-tuesday-symposium-special.jpg"
+                                                <Link passHref href="https://symposiumcafe.com/images/gallery/1453918902-pasta-rice-bowls-guacamole-wonton-lime-spicy-red-wine-tuesday-symposium-special.jpg"
                                                    itemProp="contentUrl" className="thumbnail" data-size="980x654">
                                                     <Image
                                                         src={Pic20}
@@ -299,115 +299,115 @@ export default function GalleryBody()
                                             </div>
                                             <ul className="menu-categories">
                                                 <li>
-                                                    <Link href="https://symposiumcafe.com/photos/beverages">Menu items</Link>
+                                                    <Link passHref href="https://symposiumcafe.com/photos/beverages">Menu items</Link>
                                                     <ul>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/beverages">Beverages</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/beverages">Beverages</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/deserts">Desserts</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/deserts">Desserts</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/food">Food</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/food">Food</Link>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <Link href="https://symposiumcafe.com/photos/decor">Decor</Link>
+                                                    <Link passHref href="https://symposiumcafe.com/photos/decor">Decor</Link>
                                                     <ul>
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <Link href="https://symposiumcafe.com/photos/ajax">Locations</Link>
+                                                    <Link passHref href="https://symposiumcafe.com/photos/ajax">Locations</Link>
                                                     <ul>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/ajax">Ajax</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/ajax">Ajax</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/ancaster">Ancaster</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/ancaster">Ancaster</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/aurora">Aurora</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/aurora">Aurora</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/barrie">Barrie</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/barrie">Barrie</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/bolton">Bolton</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/bolton">Bolton</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/brantford">Brantford</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/brantford">Brantford</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/cambridge">Cambridge</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/cambridge">Cambridge</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/georgetown">Georgetown</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/georgetown">Georgetown</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/guelph">Guelph</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/guelph">Guelph</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/keswick">Keswick</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/keswick">Keswick</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/lindsay">Lindsay</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/lindsay">Lindsay</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/markham">Markham</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/markham">Markham</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/milton">Milton</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/milton">Milton</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/mississauga-south">Mississauga
+                                                            <Link passHref href="https://symposiumcafe.com/photos/mississauga-south">Mississauga
                                                                 South</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/oakville">Oakville</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/oakville">Oakville</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/stoney-creek">Stoney
+                                                            <Link passHref href="https://symposiumcafe.com/photos/stoney-creek">Stoney
                                                                 Creek</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/thornhill">Thornhill</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/thornhill">Thornhill</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/waterdown">Waterdown</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/waterdown">Waterdown</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/waterloo">Waterloo</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/waterloo">Waterloo</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/woodbridge">Woodbridge</Link>
+                                                            <Link passHref href="https://symposiumcafe.com/photos/woodbridge">Woodbridge</Link>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <Link href="https://symposiumcafe.com/photos/symposium-fun">Special
+                                                    <Link passHref href="https://symposiumcafe.com/photos/symposium-fun">Special
                                                         events</Link>
                                                     <ul>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/symposium-fun">Symposium
+                                                            <Link passHref href="https://symposiumcafe.com/photos/symposium-fun">Symposium
                                                                 Fun</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/symposium-golf">Symposium
+                                                            <Link passHref href="https://symposiumcafe.com/photos/symposium-golf">Symposium
                                                                 Golf</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/symposium-openings">Symposium
+                                                            <Link passHref href="https://symposiumcafe.com/photos/symposium-openings">Symposium
                                                                 Openings</Link>
                                                         </li>
                                                         <li>
-                                                            <Link href="https://symposiumcafe.com/photos/symposium-support">Symposium
+                                                            <Link passHref href="https://symposiumcafe.com/photos/symposium-support">Symposium
                                                                 Support</Link>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <Link href="https://symposiumcafe.com/photos/video">Video</Link>
+                                                    <Link passHref href="https://symposiumcafe.com/photos/video">Video</Link>
                                                     <ul>
                                                     </ul>
                                                 </li>

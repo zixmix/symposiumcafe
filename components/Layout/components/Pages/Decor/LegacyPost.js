@@ -1,21 +1,21 @@
-import {Pythagoras, Aristotle_and_Plato, Diogenes_the_Dog, School_of_athens, Apollo_and_Minerva} from "../../../../../data/images";
+import {
+    Pythagoras,
+    Aristotle_and_Plato,
+    Diogenes_the_Dog,
+    School_of_athens,
+    Apollo_and_Minerva
+} from "../../../../../data/images";
 import Legacy from "./Legacy";
 
-
 export default function LegacyPost() {
-
     const legacy = [
-
-
         {
             id: 1,
             title: "Alexander the Great",
             image: School_of_athens,
             imageAlt: "Alexander the Great",
             description: `King of Macedonia and a pupil of Aristotle, 
-            Alexander is seen here listening attentively to Socrates.
-
-`,
+            Alexander is seen here listening attentively to Socrates`,
         },
         {
             id: 2,
@@ -44,19 +44,15 @@ export default function LegacyPost() {
             title: "Diogenes the Dog",
             image: Diogenes_the_Dog,
             imageAlt: "Diogenes the Dog",
-            description: `The cynic Diogenes, hated worldly possessions and lived in a barrel. His attitude is reflected in his clothing and posture.
-
-`,
+            description: `The cynic Diogenes, hated worldly possessions and lived in a barrel. His attitude is reflected in his clothing and posture.`,
         }
-
     ];
 
     return (
         <>
-        {legacy.map((post, key) => {
-                return <Legacy key={key} post={post}></Legacy>
+            {legacy.map((post, key) => {
+                return <Legacy key={key} post={post}/>
             })}
-
         </>
     )
 }

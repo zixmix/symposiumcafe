@@ -1,10 +1,9 @@
 import React from "react";
 
-
 export default function FormPost() {
     return (
         <>
-            <form method="POST" action="https://symposiumcafe.com/send-feedback" className="feedback-form">
+            <form method="POST" action="#" className="feedback-form">
                 <fieldset>
                     <legend className="legend">Please fill out this form completely</legend>
                     <div className="col-md-8">
@@ -260,7 +259,7 @@ export default function FormPost() {
                                        data-slider-step="1" data-slider-value="0" style={{width: "100px"}}/>
                             </div>
                         </div>
-                        <div className="line"></div>
+                        <div className="line"/>
                         <div className="row margin-top10">
                             <div className="col-lg-12">
                                 <div className="form-group">
@@ -269,10 +268,6 @@ export default function FormPost() {
                                 </div>
                             </div>
                             <div className="col-lg-6">
-
-
-
-
                             </div>
                             <div className="col-lg-6"><input type="submit" value="Send feedback"
                                                              className="btn btn-primary right"/></div>

@@ -1,13 +1,10 @@
 import React from "react";
 import GalleryBody from "../../components/Layout/components/Pages/Galery/index";
 
-export default function Gallery()
-{
-    return(
+export default function Gallery() {
+    return (
         <div>
-            <>
-                <GalleryBody/>
-            </>
+            <GalleryBody/>
         </div>
     )
 }

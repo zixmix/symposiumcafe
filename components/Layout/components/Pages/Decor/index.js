@@ -1,13 +1,26 @@
 import React from "react";
 import Image from "next/image";
 import Pic from "../../../../../images/decor/decor.jpg";
-import {School_of_athens, Alexander_the_Great, Apollo_and_Minerva,Pythagoras, Aristotle_and_Plato, Diogenes_the_Dog, Raphael, Epicurus, Heraclitus, The_Parnassus, Primavera, Fire_in_the_Borgo,The_Birth_of_Venus} from "/data/images";
+import {
+    School_of_athens,
+    Alexander_the_Great,
+    Apollo_and_Minerva,
+    Pythagoras,
+    Aristotle_and_Plato,
+    Diogenes_the_Dog,
+    Raphael,
+    Epicurus,
+    Heraclitus,
+    The_Parnassus,
+    Primavera,
+    Fire_in_the_Borgo,
+    The_Birth_of_Venus
+} from "/data/images";
 import BodyTop from "../../UI/BodyTop";
 import LegacyPost from "./LegacyPost";
 
-export default function DecorBody()
-{
-    return(
+export default function DecorBody() {
+    return (
         <div>
             <BodyTop title="Charity" image={Pic}/>
             <section>
@@ -55,25 +68,26 @@ export default function DecorBody()
                                     every taste.</p>
                                 <p> Here’s a brief art history lesson for your next Symposium visit:</p>
 
-
                                 <div className="row">
                                     <div className="col-lg-8">
                                         <div className="img-symposium">
-                                            <div className="img-overlay"></div>
+                                            <div className="img-overlay"/>
                                             <div className="img-name">School of Athens</div>
-                                            <Image src={School_of_athens} width={600} height={400} alt="School of Athens"
-                                                 className="img-responsive"/>
+                                            <Image src={School_of_athens} width={600} height={400}
+                                                   alt="School of Athens"
+                                                   className="img-responsive"/>
 
-                                        <div className="col-lg-4">
-                                            <h2 className="bigger-h2">School of Athens</h2>
-                                            <p><em>
-                                                Raphael, 1510-1511, Fresco, 8m x 5.5m.
-                                            </em></p>
-                                            <p>Plato and Aristotle, the two great philosophers of the classical world are
-                                                central to
-                                                this piece.
-                                            </p>
-                                        </div>
+                                            <div className="col-lg-4">
+                                                <h2 className="bigger-h2">School of Athens</h2>
+                                                <p><em>
+                                                    Raphael, 1510-1511, Fresco, 8m x 5.5m.
+                                                </em></p>
+                                                <p>Plato and Aristotle, the two great philosophers of the classical
+                                                    world are
+                                                    central to
+                                                    this piece.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
 

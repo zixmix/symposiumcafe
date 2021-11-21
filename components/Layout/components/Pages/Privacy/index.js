@@ -1,9 +1,7 @@
 import React from "react";
 
-
-export default function PrivacyBody()
-{
-    return(
+export default function PrivacyBody() {
+    return (
         <div>
             <section>
                 <div className="container">
@@ -82,7 +80,7 @@ export default function PrivacyBody()
                                     kiosk/booth operated by us. </p>
                                 <p>Symposium may collect personal information from an Individual where the Individual
                                     submits an
-                                    application for programs operated from time-to-time by Symposium(the  Programs ) or
+                                    application for programs operated from time-to-time by Symposium(the Programs ) or
                                     for an
                                     employment opportunity (such as that information contained in a resume, cover
                                     letter, or
@@ -297,7 +295,7 @@ export default function PrivacyBody()
                                     reasonable physical, organizational, and technological safeguards and appropriate
                                     training
                                     of
-                                    employees. Symposium  third party service providers are obligated to maintain
+                                    employees. Symposium third party service providers are obligated to maintain
                                     confidentiality
                                     and security of the personal information transferred to them and are not authorized
                                     to use
@@ -321,7 +319,7 @@ export default function PrivacyBody()
                                     Symposium
                                     by using the unsubscribe mechanism at the bottom of our email communications by
                                     contacting
-                                    our Chief Privacy Officer (the  Privacy Office ) using the contact information
+                                    our Chief Privacy Officer (the Privacy Office ) using the contact information
                                     provided
                                     below.</p>
                                 <h3 className="bold">Access/Corrections
@@ -354,11 +352,9 @@ export default function PrivacyBody()
                                     Attention: Chief Privacy Officer <br/>
                                     Address: 874 Sinclair Road, Oakville, ON L6K 2Y1 <br/>
                                     Email: <a
-                                    href="/cdn-cgi/l/email-protection#7a13141c153a0903170a1509130f17191b1c1f54191517"><span
-                                    className="__cf_email__"
-                                    data-cfemail="7f161119103f0c06120f100c160a121c1e191a511c1012">[email&#160;protected]</span></a>
+                                        href="mailto:email@email.com"><span>email@email.com</span></a>
                                     <br/>
-                                        Fax: 905-845-2931
+                                    Fax: 905-845-2931
                                 </address>
                             </div>
                         </div>
