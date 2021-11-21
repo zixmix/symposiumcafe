@@ -17,14 +17,14 @@ export default function ContactBody()
                 <div className="row">
                     <div className="col-lg-12">
 
-                            <h4>For Reservations - see <Link href="/locations" passHref><a>LOCATIONS</a></Link> page contact info </h4>
+                            <h4>For Reservations - see <Link href="/locations">LOCATIONS</Link> page contact info </h4>
                             <p> Questions or Comments? We’d like to hear from you…</p>
                             <p>Let us know how you enjoyed your Symposium experience by completing our
-                                <Link href="feedback" className="bold purple-text" passHref><a>Feedback</a> </Link>form.
+                                <Link href="feedback" className="bold purple-text">Feedback</Link>form.
                             </p>
                             <p>If you’d like information about specific Symposium restaurant hours, telephone numbers,
                                 location maps etc., see our <Link href="locations"
-                                                               className="bold purple-text" passHref><a>Locations</a></Link>
+                                                               className="bold purple-text">Locations</Link>
                                 page.
                             </p>
                             <p>For additional information, take a look at the options below, and we’ll do our best to
@@ -34,7 +34,14 @@ export default function ContactBody()
                                 <small>*REQUIRED FIELDS</small>
                             </p>
                         <div style={{width:'70%', float:'left'}}>
+                            <div style={{width:"600px"}}>
+                                <div className="row" style={{width:"600px"}}>
+                                    <div className="col-lg-8" >
                         <FormPost/>
+                        </div>
+
+                    </div>
+                </div>
                         </div>
                         <div className="col-lg-4" style={{width:'30%', float:'right'}}>
                             <div className="yellow-bg">

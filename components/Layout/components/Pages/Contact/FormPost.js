@@ -3,10 +3,8 @@ import React from "react";
 
 export default function FormPost() {
     return (
-        <>
-            <div style={{width:"600px"}}>
-                <div className="row" style={{width:"600px"}}>
-                    <div className="col-lg-8" >
+
+
                         <form method="POST" action="https://symposiumcafe.com/send-contact"
                               className="contact-form">
                             <fieldset>
@@ -93,10 +91,7 @@ export default function FormPost() {
                                 </div>
                             </fieldset>
                         </form>
-                    </div>
 
-                </div>
-            </div>
-        </>
+
     )
 };
